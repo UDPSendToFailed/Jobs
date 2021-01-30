@@ -302,3 +302,32 @@ Hunter:
       experience: 3
       income: 3
       points: 3
+  Smelt:
+    cooked_beef:
+      income: 3.03
+      points: 3.03
+      experience: 3.03
+    cooked_chicken:
+      income: 3.02
+      points: 3.02
+      experience: 3.02
+    cooked_cod:
+      income: 3.16
+      points: 3.16
+      experience: 3.16
+    cooked_mutton:
+      income: 3.05
+      points: 3.05
+      experience: 3.05
+    cooked_porkchop:
+      income: 3.04
+      points: 3.04
+      experience: 3.04
+    cooked_rabbit:
+      income: 3.09
+      points: 3.09
+      experience: 3.09
+    cooked_salmon:
+      income: 3.19
+      points: 3.19
+      experience: 3.19
