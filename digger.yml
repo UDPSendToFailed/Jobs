@@ -5,7 +5,7 @@ Digger:
   ChatColour: GOLD
   chat-display: full
   max-level: 1000
-  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*0.75)
   income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)
   points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
     * ((numjobs-1)*0.05))
@@ -29,41 +29,55 @@ Digger:
     Id: 269
     Data: 0
   Break:
-    red_sand:
-      income: 1
-      points: 1
-      experience: 1
-    coarse_dirt:
-      income: 1
-      points: 1
-      experience: 1
-    dirt:
-      income: 0.25
-      points: 0.25
-      experience: 0.25
-    grass_block:
-      income: 0.3
-      points: 0.3
-      experience: 0.3
-    gravel:
-      income: 1
-      points: 1
-      experience: 1.0
-    sand:
-      income: 0.4
-      points: 0.4
-      experience: 0.5
     clay:
+      experience: 1.15
+      income: 1.15
+      points: 1.15
+    coarse_dirt:
+      experience: 0.9
+      income: 0.9
+      points: 0.9
+    dirt:
+      experience: 0.35
+      income: 0.35
+      points: 0.35
+    grass_block:
+      experience: 0.45
+      income: 0.45
+      points: 0.45
+    gravel:
+      experience: 1
       income: 1
       points: 1
-      experience: 1.0
-  Kill:
-    Player:
-      income: 7.5
-      points: 7.5
-      experience: 7.5
-  custom-kill:
-    Digger:
-      income: 10.0
-      points: 10.0
-      experience: 10.0
+    MYCELIUM:
+      experience: 1.25
+      income: 1.25
+      points: 1.25
+    PODZOL:
+      experience: 1.12
+      income: 1.12
+      points: 1.12
+    red_sand:
+      experience: 1
+      income: 1
+      points: 1
+    sand:
+      experience: 0.75
+      income: 0.75
+      points: 0.75
+    SNOW:
+      experience: 1.2
+      income: 1.2
+      points: 1.2
+    SNOW_BLOCK:
+      experience: 1.27
+      income: 1.27
+      points: 1.27
+    SOUL_SAND:
+      experience: 1.45
+      income: 1.45
+      points: 1.45
+    SOUL_SOIL:
+      experience: 1.55
+      income: 1.55
+      points: 1.55

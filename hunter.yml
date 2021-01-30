@@ -6,10 +6,10 @@ Hunter:
   chat-display: full
   max-level: 1000
   leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*0.5)
-  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.005)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.015)
   points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
     * ((numjobs-1)*0.05))
-  experience-progression-equation: baseexperience*joblevel*0.08
+  experience-progression-equation: baseexperience*joblevel*0.1
   rejoinCooldown: 10
   maxDailyQuests: 1
   Quests:
@@ -43,9 +43,9 @@ Hunter:
       experience: 15
   Kill:
     BAT:
-      experience: 12
-      income: 12
-      points: 12
+      experience: 100
+      income: 50
+      points: 50
     BEE:
       experience: 7.7
       income: 7.7
@@ -59,7 +59,7 @@ Hunter:
       income: 4
       points: 4
     COD:
-      experience: 3
+      experience: 10
       income: 3
       points: 3
     Chicken:
@@ -75,7 +75,7 @@ Hunter:
       income: 5.5
       points: 5.5
     DOLPHIN:
-      experience: 3
+      experience: 15
       income: 3
       points: 3
     DROWNED:
@@ -83,9 +83,9 @@ Hunter:
       income: 3.4
       points: 3.4
     ELDER_GUARDIAN:
-      experience: 30
-      income: 30
-      points: 30
+      experience: 120
+      income: 120
+      points: 120
     ENDERMAN:
       experience: 2.5
       income: 2.5
@@ -103,7 +103,7 @@ Hunter:
       income: 6.2
       points: 6.2
     FOX:
-      experience: 5.1
+      experience: 11
       income: 5.1
       points: 5.1
     GHAST:
@@ -143,11 +143,11 @@ Hunter:
       income: 4.4
       points: 4.4
     MULE:
-      experience: 3
+      experience: 5
       income: 3
       points: 3
     mushroom_cow:
-      experience: 6.4
+      experience: 8
       income: 6.4
       points: 6.4
     OCELOT:
@@ -155,11 +155,11 @@ Hunter:
       income: 6.9
       points: 6.9
     PANDA:
-      experience: 6.9
+      experience: 9
       income: 6.9
       points: 6.9
     PARROT:
-      experience: 5.4
+      experience: 13
       income: 5.4
       points: 5.4
     PHANTOM:
@@ -175,7 +175,7 @@ Hunter:
       income: 11.7
       points: 11.7
     POLAR_BEAR:
-      experience: 7.7
+      experience: 17
       income: 7.7
       points: 7.7
     PUFFERFISH:
@@ -199,7 +199,7 @@ Hunter:
       income: 7.5
       points: 7.5
     SALMON:
-      experience: 2.1
+      experience: 10
       income: 2.1
       points: 2.1
     SHULKER:
@@ -207,11 +207,11 @@ Hunter:
       income: 15
       points: 15
     SILVERFISH:
-      experience: 6
+      experience: 12
       income: 6
       points: 6
     SKELETON_HORSE:
-      experience: 20
+      experience: 60
       income: 20
       points: 20
     SLIME:
@@ -219,11 +219,11 @@ Hunter:
       income: 5.4
       points: 5.4
     SNOWMAN:
-      experience: 2
-      income: 2
-      points: 2
+      experience: 1.9
+      income: 1.9
+      points: 1.9
     SQUID:
-      experience: 2
+      experience: 6
       income: 2
       points: 2
     STRIDER:
@@ -243,9 +243,9 @@ Hunter:
       income: 3.1
       points: 3.1
     TRADER_LLAMA:
-      experience: 15
-      income: 15
-      points: 15
+      experience: 200
+      income: 75
+      points: 75
     TROPICAL_FISH:
       experience: 2.2
       income: 2.2
@@ -267,13 +267,13 @@ Hunter:
       income: 5.2
       points: 5.2
     WANDERING_TRADER:
-      experience: 30
-      income: 30
-      points: 30
+      experience: 300
+      income: 125
+      points: 125
     WITCH:
-      experience: 4
-      income: 4
-      points: 4
+      experience: 6
+      income: 6
+      points: 6
     WITHER:
       experience: 100
       income: 100
@@ -283,7 +283,7 @@ Hunter:
       income: 4
       points: 4
     Wolf:
-      experience: 9.9
+      experience: 15
       income: 9.9
       points: 9.9
     ZOGLIN:

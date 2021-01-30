@@ -59,6 +59,10 @@ Miner:
       experience: 1.8
       income: 1.8
       points: 1.8
+    crimson_nylium:
+      experience: 0.6
+      income: 0.6
+      points: 0.6
     cut_sandstone:
       experience: 1.2
       income: 1.2
@@ -159,12 +163,6 @@ Miner:
       experience: 0.6
       income: 0.6
       points: 0.6
-  Place:
-  Kill:
-    Player:
-      income: 7.5
-      points: 7.5
-      experience: 7.5
   Smelt:
     iron_ore:
       income: 1.4
@@ -174,3 +172,5 @@ Miner:
       income: 2.2
       points: 2.2
       experience: 3
+  Place:
+  Kill:
