@@ -47,6 +47,10 @@ Miner:
       experience: 1.25
       income: 1.25
       points: 1.25
+    BROWN_TERRACOTTA:
+      experience: 1.55
+      income: 1.55
+      points: 1.55
     chiseled_sandstone:
       experience: 1.2
       income: 1.2
@@ -103,6 +107,10 @@ Miner:
       experience: 6
       income: 6
       points: 6
+    LIGHT_GRAY_TERRACOTTA:
+      experience: 1.55
+      income: 1.55
+      points: 1.55
     magma_block:
       experience: 1.4
       income: 1.4
@@ -151,6 +159,10 @@ Miner:
       experience: 3.1
       income: 3.1
       points: 3.1
+    RED_TERRACOTTA:
+      experience: 1.55
+      income: 1.55
+      points: 1.55
     sandstone:
       experience: 1.2
       income: 1.2
@@ -159,10 +171,22 @@ Miner:
       experience: 1
       income: 1
       points: 1
+    TERRACOTTA:
+      experience: 1.4
+      income: 1.4
+      points: 1.4
     warped_nylium:
       experience: 0.6
       income: 0.6
       points: 0.6
+    WHITE_TERRACOTTA:
+      experience: 1.55
+      income: 1.55
+      points: 1.55
+    YELLOW_TERRACOTTA:
+      experience: 1.55
+      income: 1.55
+      points: 1.55
   Smelt:
     iron_ore:
       income: 1.4
