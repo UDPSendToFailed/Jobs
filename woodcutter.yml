@@ -5,11 +5,11 @@ Woodcutter:
   ChatColour: GREEN
   chat-display: full
   max-level: 1000
-  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
-  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*0.5)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.025)
   points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
     * ((numjobs-1)*0.05))
-  experience-progression-equation: baseexperience*joblevel*0.1
+  experience-progression-equation: baseexperience*joblevel*0.25
   rejoinCooldown: 10
   maxDailyQuests: 1
   Quests:
@@ -36,19 +36,13 @@ Woodcutter:
     - jungle_log;1.0;1.0;1.0
     - acacia_log;1.0;1.0;1.0
     - dark_oak_log;1.0;1.0;1.0
-    - stripped_oak_log;0.75;0.75;0.25
-    - stripped_spruce_log;0.75;0.75;0.25
-    - stripped_birch_log;0.75;0.75;0.25
-    - stripped_jungle_log;0.75;0.75;0.25
-    - stripped_acacia_log;0.75;0.75;0.25
-    - stripped_dark_oak_log;0.75;0.75;0.25
-  Kill:
-    Player:
-      income: 7.5
-      points: 7.5
-      experience: 7.5
-  custom-kill:
-    Woodcutter:
-      income: 10.0
-      points: 10.0
-      experience: 10.0
+    - warped_hyphae;1.7;1.7;1.7
+    - crimson_hyphae;1.7;1.7;1.7
+    - stripped_oak_log;0.75;0.75;0.75
+    - stripped_spruce_log;0.75;0.75;0.75
+    - stripped_birch_log;0.75;0.75;0.75
+    - stripped_jungle_log;0.75;0.75;0.75
+    - stripped_acacia_log;0.75;0.75;0.75
+    - stripped_dark_oak_log;0.75;0.75;0.75
+    - stripped_warped_hyphae;1.5;1.5;1.5
+    - stripped_crimson_hyphae;1.5;1.5;1.5
