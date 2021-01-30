@@ -9,7 +9,7 @@ Hunter:
   income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.015)
   points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
     * ((numjobs-1)*0.05))
-  experience-progression-equation: baseexperience*joblevel*0.075
+  experience-progression-equation: baseexperience*joblevel*0.085
   rejoinCooldown: 10
   maxDailyQuests: 1
   Quests:
