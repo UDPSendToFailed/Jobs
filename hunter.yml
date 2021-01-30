@@ -29,10 +29,6 @@ Hunter:
     Id: 261
     Data: 0
   Tame:
-    Wolf:
-      income: 15
-      points: 15
-      experience: 15
     Ocelot:
       income: 17
       points: 17
@@ -41,128 +37,268 @@ Hunter:
       income: 13
       points: 13
       experience: 13
-  Kill:
-    Chicken:
-      income: 5.0
-      points: 5
-      experience: 5.0
-    Cow:
-      income: 5.0
-      points: 5
-      experience: 5.0
-    Pig:
-      income: 5.0
-      points: 5
-      experience: 5.0
-    Sheep:
-      income: 5.0
-      points: 5
-      experience: 5.0
     Wolf:
-      income: 10.0
-      points: 10
-      experience: 5.0
-    Creeper:
-      income: 3.5
-      points: 3.5
-      experience: 3.5
-    Skeleton:
-      income: 3.2
-      points: 3.2
-      experience: 3.2
-    Spider:
-      income: 3.1
-      points: 3.1
-      experience: 3.1
-    Zombie:
-      income: 3
-      points: 3
-      experience: 3
+      income: 15
+      points: 15
+      experience: 15
+  Kill:
+    BAT:
+      experience: 12
+      income: 12
+      points: 12
+    BEE:
+      experience: 7.7
+      income: 7.7
+      points: 7.7
     BLAZE:
+      experience: 3.8
       income: 3.8
       points: 3.8
-      experience: 3.8
     CAVE_SPIDER:
+      experience: 4
       income: 4
       points: 4
-      experience: 4
-    ENDERMAN:
-      income: 4
-      points: 4
-      experience: 4
-    GHAST:
-      income: 10
-      points: 10
-      experience: 10
-    GIANT:
-      income: 250.0
-      points: 250
-      experience: 100.0
-    IRON_GOLEM:
+    COD:
+      experience: 3
+      income: 3
+      points: 3
+    Chicken:
+      experience: 5
       income: 5
       points: 5
-      experience: 5
-    mushroom_cow:
-      income: 7
-      points: 7
-      experience: 7
-    SILVERFISH:
-      income: 6
-      points: 6
-      experience: 6
-    SNOWMAN:
-      income: 2
-      points: 2
-      experience: 2
-    SQUID:
-      income: 2
-      points: 2
-      experience: 2
-    RABBIT:
-      income: 2
-      points: 2
-      experience: 2
-    GUARDIAN:
-      income: 3.5
-      points: 3.5
-      experience: 3.5
-    SHULKER:
-      income: 7
-      points: 7
-      experience: 7
-    PHANTOM:
-      income: 6
-      points: 6
-      experience: 6
+    Cow:
+      experience: 5.2
+      income: 5.2
+      points: 5.2
+    Creeper:
+      experience: 5.5
+      income: 5.5
+      points: 5.5
+    DOLPHIN:
+      experience: 3
+      income: 3
+      points: 3
     DROWNED:
+      experience: 3.4
       income: 3.4
       points: 3.4
-      experience: 3.4
-    HUSK:
-      income: 3.3
-      points: 3.3
-      experience: 3.3
-    PIGLIN:
+    ELDER_GUARDIAN:
+      experience: 30
+      income: 30
+      points: 30
+    ENDERMAN:
+      experience: 2.5
+      income: 2.5
+      points: 2.5
+    ENDERMITE:
+      experience: 3.2
+      income: 3.2
+      points: 3.2
+    ENDER_DRAGON:
+      experience: 696
+      income: 1696
+      points: 1696
+    EVOKER:
+      experience: 6.2
+      income: 6.2
+      points: 6.2
+    FOX:
+      experience: 5.1
+      income: 5.1
+      points: 5.1
+    GHAST:
+      experience: 10
+      income: 10
+      points: 10
+    GIANT:
+      experience: 100
+      income: 250
+      points: 250
+    GUARDIAN:
+      experience: 3.5
       income: 3.5
       points: 3.5
+    HOGLIN:
+      experience: 6
+      income: 6
+      points: 6
+    HUSK:
+      experience: 3.3
+      income: 3.3
+      points: 3.3
+    ILLUSIONER:
+      experience: 7
+      income: 7
+      points: 7
+    IRON_GOLEM:
+      experience: 5
+      income: 5
+      points: 5
+    LLAMA:
+      experience: 3.3
+      income: 3.3
+      points: 3.3
+    MAGMA_CUBE:
+      experience: 4.4
+      income: 4.4
+      points: 4.4
+    MULE:
+      experience: 3
+      income: 3
+      points: 3
+    mushroom_cow:
+      experience: 6.4
+      income: 6.4
+      points: 6.4
+    OCELOT:
+      experience: 6.9
+      income: 6.9
+      points: 6.9
+    PANDA:
+      experience: 6.9
+      income: 6.9
+      points: 6.9
+    PARROT:
+      experience: 5.4
+      income: 5.4
+      points: 5.4
+    PHANTOM:
+      experience: 8
+      income: 8
+      points: 8
+    PIGLIN:
       experience: 3.5
+      income: 3.5
+      points: 3.5
     PIGLIN_BRUTE:
-      income: 3.7
-      points: 3.7
-      experience: 3.7
-    ZOMBIFIED_PIGLIN:
-      income: 3.7
-      points: 3.7
-      experience: 3.7
-    WITHER:
-      income: 50.0
-      points: 50
-      experience: 120.0
-    ENDER_DRAGON:
-      income: 2000.0
-      points: 2000
-      experience: 2000.0
+      experience: 11.7
+      income: 11.7
+      points: 11.7
+    POLAR_BEAR:
+      experience: 7.7
+      income: 7.7
+      points: 7.7
+    PUFFERFISH:
+      experience: 2
+      income: 2
+      points: 2
+    Pig:
+      experience: 5
+      income: 5
+      points: 5
     Player:
-      income: 9.0
+      experience: 9
+      income: 9
       points: 9
+    RABBIT:
+      experience: 4.8
+      income: 4.8
+      points: 4.8
+    RAVAGER:
       experience: 7.5
+      income: 7.5
+      points: 7.5
+    SALMON:
+      experience: 2.1
+      income: 2.1
+      points: 2.1
+    SHULKER:
+      experience: 15
+      income: 15
+      points: 15
+    SILVERFISH:
+      experience: 6
+      income: 6
+      points: 6
+    SKELETON_HORSE:
+      experience: 20
+      income: 20
+      points: 20
+    SLIME:
+      experience: 5.4
+      income: 5.4
+      points: 5.4
+    SNOWMAN:
+      experience: 2
+      income: 2
+      points: 2
+    SQUID:
+      experience: 2
+      income: 2
+      points: 2
+    STRIDER:
+      experience: 6.6
+      income: 6.6
+      points: 6.6
+    Sheep:
+      experience: 5
+      income: 5
+      points: 5
+    Skeleton:
+      experience: 3.2
+      income: 3.2
+      points: 3.2
+    Spider:
+      experience: 3.1
+      income: 3.1
+      points: 3.1
+    TRADER_LLAMA:
+      experience: 15
+      income: 15
+      points: 15
+    TROPICAL_FISH:
+      experience: 2.2
+      income: 2.2
+      points: 2.2
+    TURTLE:
+      experience: 3.1
+      income: 3.1
+      points: 3.1
+    VEX:
+      experience: 3.7
+      income: 3.7
+      points: 3.7
+    VILLAGER:
+      experience: 0.5
+      income: 0.5
+      points: 0.5
+    VINDICATOR:
+      experience: 5.2
+      income: 5.2
+      points: 5.2
+    WANDERING_TRADER:
+      experience: 30
+      income: 30
+      points: 30
+    WITCH:
+      experience: 4
+      income: 4
+      points: 4
+    WITHER:
+      experience: 100
+      income: 100
+      points: 100
+    WITHER_SKELETON:
+      experience: 4
+      income: 4
+      points: 4
+    Wolf:
+      experience: 9.9
+      income: 9.9
+      points: 9.9
+    ZOGLIN:
+      experience: 4.8
+      income: 4.8
+      points: 4.8
+    ZOMBIE_VILLAGER:
+      experience: 4.1
+      income: 4.1
+      points: 4.1
+    ZOMBIFIED_PIGLIN:
+      experience: 3.7
+      income: 3.7
+      points: 3.7
+    Zombie:
+      experience: 3
+      income: 3
+      points: 3
