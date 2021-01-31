@@ -5,11 +5,11 @@ Brewer:
   ChatColour: LIGHT_PURPLE
   chat-display: full
   max-level: 1000
-  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*0.5)
   income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)
   points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
     * ((numjobs-1)*0.05))
-  experience-progression-equation: baseexperience*joblevel*0.1
+  experience-progression-equation: baseexperience*joblevel*0.175
   rejoinCooldown: 10
   maxDailyQuests: 1
   Quests:
@@ -29,71 +29,71 @@ Brewer:
     Id: 379
     Data: 0
   Brew:
-    nether_wart:
-      income: 6.0
-      points: 6.0
-      experience: 6.0
-    redstone:
-      income: 6.0
-      points: 6.0
-      experience: 6.0
-    glowstone_dust:
-      income: 8.0
-      points: 8.0
-      experience: 8.0
-    fermented_spider_eye:
-      income: 12.0
-      points: 12.0
-      experience: 12.0
-    gunpowder:
-      income: 6.0
-      points: 6.0
-      experience: 6.0
-    dragon_breath:
-      income: 25.0
-      points: 25.0
-      experience: 25.0
-    sugar:
-      income: 7.0
-      points: 7.0
-      experience: 7.0
-    rabbit_foot:
-      income: 18.0
-      points: 18.0
-      experience: 18.0
-    glistering_melon_slice:
-      income: 10.0
-      points: 10.0
-      experience: 10.0
-    spider_eye:
-      income: 9.0
-      points: 9.0
-      experience: 9.0
-    pufferfish:
-      income: 14.0
-      points: 14.0
-      experience: 14.0
-    magma_cream:
-      income: 12.0
-      points: 12.0
-      experience: 12.0
-    golden_carrot:
-      income: 14.0
-      points: 14.0
-      experience: 14.0
     blaze_powder:
-      income: 12.0
-      points: 12.0
-      experience: 12.0
+      experience: 12
+      income: 12
+      points: 12
+    dragon_breath:
+      experience: 25
+      income: 25
+      points: 25
+    fermented_spider_eye:
+      experience: 12
+      income: 12
+      points: 12
     ghast_tear:
-      income: 22.0
-      points: 22.0
-      experience: 22.0
-    turtle_helmet:
-      income: 12.0
-      points: 12.0
-      experience: 12.0
+      experience: 22
+      income: 22
+      points: 22
+    glistering_melon_slice:
+      experience: 10
+      income: 10
+      points: 10
+    glowstone_dust:
+      experience: 8
+      income: 8
+      points: 8
+    golden_carrot:
+      experience: 14
+      income: 14
+      points: 14
+    gunpowder:
+      experience: 6
+      income: 6
+      points: 6
+    magma_cream:
+      experience: 12
+      income: 12
+      points: 12
+    nether_wart:
+      experience: 6
+      income: 6
+      points: 6
     phantom_membrane:
-      income: 12.0
-      points: 12.0
-      experience: 12.0
+      experience: 12
+      income: 12
+      points: 12
+    pufferfish:
+      experience: 14
+      income: 14
+      points: 14
+    rabbit_foot:
+      experience: 18
+      income: 18
+      points: 18
+    redstone:
+      experience: 6
+      income: 6
+      points: 6
+    spider_eye:
+      experience: 9
+      income: 9
+      points: 9
+    sugar:
+      experience: 7
+      income: 7
+      points: 7
+    turtle_helmet:
+      experience: 12
+      income: 12
+      points: 12
