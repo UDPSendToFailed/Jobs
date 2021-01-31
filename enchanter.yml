@@ -97,7 +97,7 @@ Enchanter:
       experience: 2
       income: 2
       points: 2
-    gold_shovel:
+    golden_shovel:
       experience: 0.6
       income: 0.6
       points: 0.6
