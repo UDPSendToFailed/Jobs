@@ -5,11 +5,11 @@ Enchanter:
   ChatColour: DARK_BLUE
   chat-display: full
   max-level: 1000
-  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*0.5)
   income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)
   points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
     * ((numjobs-1)*0.05))
-  experience-progression-equation: baseexperience*joblevel*0.1
+  experience-progression-equation: baseexperience*joblevel*0.25
   rejoinCooldown: 10
   maxDailyQuests: 1
   Quests:
@@ -29,103 +29,167 @@ Enchanter:
     Id: 116
     Data: 0
   Enchant:
-    wood_sword:
-      income: 1.5
-      points: 1.5
-      experience: 3.0
-    leather_boots:
-      income: 1.0
-      points: 1.0
-      experience: 6.0
-    leather_chestplate:
-      income: 2.0
-      points: 2.0
-      experience: 6.0
-    leather_helmet:
-      income: 1.0
-      points: 1.0
-      experience: 6.0
-    leather_leggings:
-      income: 2.0
-      points: 2.0
-      experience: 6.0
-    iron_sword:
-      income: 3.0
-      points: 3.0
-      experience: 6.0
-    iron_boots:
-      income: 2.5
-      points: 2.5
-      experience: 9.0
-    iron_chestplate:
-      income: 4.5
-      points: 4.5
-      experience: 9.0
-    iron_helmet:
-      income: 2.5
-      points: 2.5
-      experience: 9.0
-    iron_leggings:
-      income: 4.5
-      points: 4.5
-      experience: 9.0
-    gold_sword:
-      income: 4.5
-      points: 4.5
-      experience: 15.0
-    gold_boots:
-      income: 2.5
-      points: 2.5
-      experience: 15.0
-    gold_chestplate:
-      income: 5.5
-      points: 5.5
-      experience: 15.0
-    gold_helmet:
-      income: 2.5
-      points: 2.5
-      experience: 15.0
-    gold_leggings:
-      income: 5.5
-      points: 5.5
-      experience: 15.0
-    diamond_sword:
-      income: 9.0
-      points: 9.0
-      experience: 30.0
-    diamond_spade:
-      income: 5.0
-      points: 5.0
-      experience: 30.0
-    diamond_pickaxe:
-      income: 10.0
-      points: 10.0
-      experience: 30.0
     diamond_axe:
-      income: 10.0
-      points: 10.0
-      experience: 30.0
-    diamond_helmet:
-      income: 6.0
-      points: 6.0
-      experience: 30.0
-    diamond_chestplate:
-      income: 12.0
-      points: 12.0
-      experience: 50.0
-    diamond_leggings:
-      income: 12.0
-      points: 12.0
-      experience: 50.0
+      experience: 9
+      income: 9
+      points: 9
     diamond_boots:
-      income: 6.0
-      points: 6.0
-      experience: 30.0
-    durability-1:
-      income: 10.0
-      points: 10.0
-      experience: 10.0
-    fire_aspect-2:
-      income: 20.0
-      points: 20.0
-      experience: 20.0
+      experience: 11
+      income: 11
+      points: 11
+    diamond_chestplate:
+      experience: 16
+      income: 16
+      points: 16
+    diamond_helmet:
+      experience: 12
+      income: 12
+      points: 12
+    diamond_hoe:
+      experience: 8
+      income: 8
+      points: 8
+    diamond_leggings:
+      experience: 14
+      income: 14
+      points: 14
+    diamond_pickaxe:
+      experience: 9
+      income: 9
+      points: 9
+    diamond_shovel:
+      experience: 7
+      income: 7
+      points: 7
+    diamond_sword:
+      experience: 8.5
+      income: 8.5
+      points: 8.5
+    fishing_rod:
+      experience: 2
+      income: 2
+      points: 2
+    gold_axe:
+      experience: 2.1
+      income: 2.1
+      points: 2.1
+    gold_boots:
+      experience: 4
+      income: 4
+      points: 4
+    gold_chestplate:
+      experience: 7
+      income: 7
+      points: 7
+    gold_helmet:
+      experience: 5
+      income: 5
+      points: 5
+    gold_hoe:
+      experience: 1
+      income: 1
+      points: 1
+    gold_leggings:
+      experience: 6
+      income: 6
+      points: 6
+    gold_pickaxe:
+      experience: 2
+      income: 2
+      points: 2
+    gold_shovel:
+      experience: 0.6
+      income: 0.6
+      points: 0.6
+    gold_sword:
+      experience: 1.3
+      income: 1.3
+      points: 1.3
+    iron_boots:
+      experience: 3
+      income: 3
+      points: 3
+    iron_chestplate:
+      experience: 6
+      income: 6
+      points: 66
+    iron_axe:
+      experience: 2.5
+      income: 2.5
+      points: 2.5
+    iron_helmet:
+      experience: 4
+      income: 4
+      points: 4
+    iron_hoe:
+      experience: 2.2
+      income: 2.2
+      points: 2.2
+    iron_leggings:
+      experience: 5.5
+      income: 5.5
+      points: 5.5
+    iron_pickaxe:
+      experience: 2.5
+      income: 2.5
+      points: 2.5
+    iron_shovel:
+      experience: 1.2
+      income: 1.2
+      points: 1.2
+    iron_sword:
+      experience: 2
+      income: 2
+      points: 2
+    leather_boots:
+      experience: 0.5
+      income: 0.5
+      points: 0.5
+    leather_chestplate:
+      experience: 0.8
+      income: 0.8
+      points: 0.8
+    leather_helmet:
+      experience: 0.6
+      income: 0.6
+      points: 0.6
+    leather_leggings:
+      experience: 0.75
+      income: 0.75
+      points: 0.75
+    netherite_axe:
+      experience: 18
+      income: 18
+      points: 18
+    netherite_boots:
+      experience: 21
+      income: 21
+      points: 21
+    netherite_chestplate:
+      experience: 26
+      income: 26
+      points: 26
+    netherite_helmet:
+      experience: 22
+      income: 22
+      points: 22
+    netherite_hoe:
+      experience: 11
+      income: 11
+      points: 11
+    netherite_leggings:
+      experience: 24
+      income: 24
+      points: 24
+    netherite_pickaxe:
+      experience: 20
+      income: 20
+      points: 20
+    netherite_shovel:
+      experience: 10
+      income: 10
+      points: 10
+    netherite_sword:
+      experience: 17
+      income: 17
+      points: 17

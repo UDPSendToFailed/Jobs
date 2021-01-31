@@ -195,5 +195,9 @@ Miner:
       income: 2.2
       points: 2.2
       experience: 3
+    ancient_debris:
+      income: 7
+      points: 7
+      experience: 7
   Place:
   Kill:
