@@ -5,7 +5,7 @@ Fisherman:
   ChatColour: AQUA
   chat-display: full
   max-level: 1000
-  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*0.5)
   income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)
   points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
     * ((numjobs-1)*0.05))
@@ -28,24 +28,43 @@ Fisherman:
   Gui:
     Item: fishing_rod
   Fish:
+    bow:
+      experience: 35
+      income: 35
+      points: 35
     cod:
-      income: 15.0
-      points: 15.0
-      experience: 15.0
-    salmon:
-      income: 20.0
-      points: 20.0
-      experience: 25.0
-    tropical_fish:
-      income: 25.0
-      points: 25.0
-      experience: 25.0
+      experience: 15
+      income: 15
+      points: 15
+    enchanted_book:
+      experience: 70
+      income: 70
+      points: 70
+    fishing_rod:
+      experience: 60
+      income: 60
+      points: 60
+    name_tag:
+      experience: 30
+      income: 30
+      points: 30
+    nautilus_shell:
+      experience: 80
+      income: 80
+      points: 80
     pufferfish:
-      income: 25.0
-      points: 25.0
-      experience: 25.0
-  Kill:
-    Player:
-      income: 7.5
-      points: 7.5
-      experience: 7.5
+      experience: 25
+      income: 25
+      points: 25
+    saddle:
+      experience: 40
+      income: 40
+      points: 40
+    salmon:
+      experience: 25
+      income: 20
+      points: 20
+    tropical_fish:
+      experience: 25
+      income: 25
+      points: 25
