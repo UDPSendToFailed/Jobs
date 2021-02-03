@@ -9,7 +9,7 @@ Woodcutter:
   income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.025)
   points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
     * ((numjobs-1)*0.05))
-  experience-progression-equation: baseexperience*joblevel*0.25
+  experience-progression-equation: baseexperience*joblevel*0.1
   rejoinCooldown: 10
   maxDailyQuests: 1
   Quests:
