@@ -35,9 +35,9 @@ Miner:
       income: 100
       points: 100
     andesite:
-      experience: 1
-      income: 1
-      points: 1
+      experience: 0.8
+      income: 0.8
+      points: 0.8
     basalt:
       experience: 0.6
       income: 0.6
@@ -79,9 +79,9 @@ Miner:
       income: 15
       points: 15
     diorite:
-      experience: 1
-      income: 1
-      points: 1
+      experience: 0.8
+      income: 0.8
+      points: 0.8
     emerald_ore:
       experience: 50
       income: 50
@@ -95,9 +95,9 @@ Miner:
       income: 8
       points: 8
     granite:
-      experience: 1
-      income: 1
-      points: 1
+      experience: 0.8
+      income: 0.8
+      points: 0.8
     iron_ore:
       experience: 3
       income: 3
@@ -167,9 +167,9 @@ Miner:
       income: 1.2
       points: 1.2
     stone:
-      experience: 1
-      income: 1
-      points: 1
+      experience: 0.8
+      income: 0.8
+      points: 0.8
     TERRACOTTA:
       experience: 1.4
       income: 1.4
