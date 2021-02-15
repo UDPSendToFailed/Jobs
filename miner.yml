@@ -167,7 +167,7 @@ Miner:
       income: 1.2
       points: 1.2
     stone:
-      experience: 0.8
+      experience: 0.4
       income: 0.8
       points: 0.8
     TERRACOTTA:
