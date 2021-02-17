@@ -7,7 +7,27 @@ None:
   shortname: N
   ChatColour: WHITE
   chat-display: none
-  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
-    * ((numjobs-1)*0.05))
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)
   points-progression-equation: (basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
     * ((numjobs-1)*0.05)))*0.1
+  Explore:
+    '1':
+      income: 5.0
+      points: 5
+      experience: 5.0
+    '2':
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    '3':
+      income: 1.0
+      points: 1.0
+      experience: 1.0
+    '4':
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    '5':
+      income: 0.1
+      points: 0.1
+      experience: 0.1
