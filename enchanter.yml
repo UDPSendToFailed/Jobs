@@ -33,6 +33,10 @@ Enchanter:
       experience: 3.5
       income: 3.5
       points: 3.5
+    bow:
+      experience: 1.9
+      income: 1.9
+      points: 1.9
     diamond_axe:
       experience: 9
       income: 9
