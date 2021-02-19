@@ -3,8 +3,8 @@
 # You can set this to give out some money for basic actions, like killing players or breaking some blocks but job will not be visible and you can't level it up
 # leveling-progression-equation and experience-progression-equation doesn't have any impact for this job
 None:
-  fullname: None
-  shortname: N
+  fullname: Munkanélküli
+  shortname: M
   ChatColour: WHITE
   chat-display: none
   income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)
