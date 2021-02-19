@@ -1,7 +1,7 @@
 Fisherman:
-  fullname: Fisherman
-  shortname: Fi
-  description: Earns money from fishing.
+  fullname: Halász
+  shortname: Ha
+  description: Pénzt keres halászatból.
   ChatColour: AQUA
   chat-display: full
   max-level: 1000
