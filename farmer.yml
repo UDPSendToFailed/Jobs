@@ -1,7 +1,7 @@
 Farmer:
-  fullname: Farmer
-  shortname: Fa
-  description: Earns money farming crops.
+  fullname: Földműves
+  shortname: Fö
+  description: Pénzt keres növények aratásából.
   ChatColour: BLUE
   chat-display: full
   max-level: 1000
@@ -14,7 +14,7 @@ Farmer:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Regular Joe
+      Name: Őstermelő
       Objectives:
       - Breed;Sheep;10
       - Shear;White;10
