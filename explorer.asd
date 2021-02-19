@@ -1,7 +1,7 @@
 Explorer:
-  fullname: Explorer
-  shortname: Ex
-  description: Earns money from exploring map.
+  fullname: Felfedező
+  shortname: Fe
+  description: Pénzt keres barangolásért.
   ChatColour: AQUA
   chat-display: full
   max-level: 1000
@@ -14,7 +14,7 @@ Explorer:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Galileo
+      Name: Dóra a felfedező
       Objectives:
       - Explore;1;30
       RewardCommands:
