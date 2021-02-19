@@ -1,7 +1,7 @@
 Builder:
-  fullname: Builder
-  shortname: B
-  description: Earns money for building structures.
+  fullname: Építész
+  shortname: Ép
+  description: Pénzt keres épületek építéséből.
   ChatColour: WHITE
   chat-display: full
   max-level: 1000
@@ -14,7 +14,7 @@ Builder:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Architect
+      Name: Mérnök
       Objectives:
       - Place;spruce_planks;50
       - Place;birch_planks;50
