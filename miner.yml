@@ -1,7 +1,7 @@
 Miner:
-  fullname: Miner
-  shortname: M
-  description: Earns money mining minerals and ores.
+  fullname: Bányász
+  shortname: B
+  description: Pénzt keres ásványok és ércek bányászásából.
   ChatColour: DARK_GRAY
   chat-display: full
   max-level: 1000
