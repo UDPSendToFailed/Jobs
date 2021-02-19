@@ -1,7 +1,7 @@
 Crafter:
-  fullname: Crafter
-  shortname: Cr
-  description: Earns money from crafting items.
+  fullname: Barkácsoló
+  shortname: Br
+  description: Pénzt keres tárgyak barkácsolásából.
   ChatColour: RED
   chat-display: full
   max-level: 1000
