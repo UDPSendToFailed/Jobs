@@ -1,7 +1,7 @@
 Enchanter:
-  fullname: Enchanter
-  shortname: E
-  description: Earns money enchanting weapons.
+  fullname: Bűvölő
+  shortname: B
+  description: Pénzt keres tárgyak bűvöléséből.
   ChatColour: DARK_BLUE
   chat-display: full
   max-level: 1000
@@ -14,7 +14,7 @@ Enchanter:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Harry the wizard
+      Name: Hári Péter a kis varázsló
       Objectives:
       - Enchant;wood_sword;1
       - Enchant;diamond_sword;1
