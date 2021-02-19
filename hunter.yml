@@ -1,7 +1,7 @@
 Hunter:
-  fullname: Hunter
-  shortname: H
-  description: Earns money killing animals and monsters.
+  fullname: Vadász
+  shortname: V
+  description: Pénzt keres állatok és szörnyek semlegesítéséből.
   ChatColour: RED
   chat-display: full
   max-level: 1000
@@ -14,7 +14,7 @@ Hunter:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Predator
+      Name: Ragadozó
       Objectives:
       - Kill;Wolf;10
       - Kill;Creeper;3
