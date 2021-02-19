@@ -1,7 +1,7 @@
-Brewer:
-  fullname: Brewer
-  shortname: Br
-  description: Earns money brewing potions.
+Bájitalfőző:
+  fullname: Bájitalfőző
+  shortname: Bf
+  description: Pénzt keres bájitalok főzéséből.
   ChatColour: LIGHT_PURPLE
   chat-display: full
   max-level: 1000
@@ -14,7 +14,7 @@ Brewer:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Heavy drinker
+      Name: Iszákos
       Objectives:
       - Brew;glowstone_dust;2
       - Brew;redstone;2
