@@ -362,7 +362,7 @@ ExploitProtections:
       timer: 3
     # Enable silk touch protection.
     # With this enabled players wont get paid for broken blocks from restrictedblocks list with silk touch tool.
-    SilkTouchProtection: false
+    SilkTouchProtection: true
     MonsterDamage:
       # This section controls how much damage player should do to monster for player to get paid
       # This prevents from killing monsters in one hit when they suffer in example fall damage
