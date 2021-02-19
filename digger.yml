@@ -1,7 +1,7 @@
 Digger:
-  fullname: Digger
-  shortname: D
-  description: Earns money for terraforming the world.
+  fullname: Lapátoló
+  shortname: L
+  description: Pénzt keres ásából.
   ChatColour: GOLD
   chat-display: full
   max-level: 1000
@@ -14,7 +14,7 @@ Digger:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Ground Mole
+      Name: Kis vakond
       Objectives:
       - Break;dirt;50
       - Break;grass_block;50
