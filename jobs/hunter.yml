@@ -14,17 +14,84 @@ Hunter:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Ragadozó
+      Name: Nether ostrom
       Objectives:
-      - Kill;Wolf;10
-      - Kill;Creeper;3
-      - Kill;Skeleton;10
+      - Kill;wither_skeleton;8
+      - Kill;blaze;8
       RewardCommands:
-      - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 1000
+      - give [playerName] witherskeletonskull 3
+      - give [playerName] soulsand 4
       RewardDesc:
-      - Kill everything what moves and get money
-      - Get 100 for this!
+      - Ölj meg 8 wither csontvázat és 8 őrlángot.
+      - 'Jutalom: 3 withercsontváz fej, 4 lélekhomok és 1000$'
+    '2':
+      Name: Sárkánylovas
+      Objectives:
+      - Kill;ender_dragon;1
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 20000
+      - give [playerName] endcrystal 4
+      RewardDesc:
+      - Öld meg az endersárkányt.
+      - 'Jutalom: 4 endkristály és 20000$'
+    '3':
+      Name: Utolsó ellenfél
+      Objectives:
+      - Kill;wither;1
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 15000
+      - give [playerName] egoldapple 1
+      RewardDesc:
+      - Öld meg a withert.
+      - 'Jutalom: Egy bűvös aranyalma és 15000$'
+    '4':
+      Name: Végzet útja
+      Objectives:
+      - Kill;enderman;500
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 10000
+      RewardDesc:
+      - Ölj meg 500 endermant.
+      - 'Jutalom: 10000$'
+    '5':
+      Name: Távolsági harc
+      Objectives:
+      - Craft;crossbow;1
+      - Craft;bow;2
+      - Craft;arrow;300
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 8000
+      RewardDesc:
+      - Craftolj 1 számszeríjat, 2 íjat és 300 nyilat. 
+      - 'Jutalom: 8000$'
+    '6':
+      Name: Faluk védelme
+      Objectives:
+      - Kill;ravager;5
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - lp user [playerName] permission settemp jobs.boost.Vadász.money.0.5 true 30m
+      RewardDesc:
+      - Ölj meg 5 pusztítót.
+      - 'Jutalom: Fél órás +50%-os pénz bónusz'
+    '7':
+      Name: Vas hatalom
+      Objectives:
+      - Kill;iron_golem;50
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 5000
+      - give [playerName] ironblock 32
+      RewardDesc:
+      - Ölj meg 50 vasgólemet.
+      - 'Jutalom: 32 vasblokk és 5000$'
+
   Gui:
     Id: 261
     Data: 0
