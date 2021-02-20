@@ -84,7 +84,7 @@ Digger:
       - Break;red_sand;300
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
-      - eco give [playerName] 5000
+      - eco give [playerName] 8000
       RewardDesc:
       - Áss ki 300 vörös homokot.
       - 'Jutalom: 8000$'
