@@ -14,17 +14,83 @@ Enchanter:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Hári Péter a kis varázsló
+      Name: Enchant helyiség
+      Objectives:
+      - Place;enchanting_table;1
+      - Place;bookshelf;20
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 3000
+      - give [playerName] lapislazuli 32
+      - give [playerName] experiencebottle 32
+      RewardDesc:
+      - Rakj le egy enchantasztalt és 20 könyvespolcot.
+      - 'Jutalom: 32 lapis, 32 xp poti és 3000$'
+    '2':
+      Name: Könyv készítés
+      Objectives:
+      - Craft;book;32
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 4000
+      RewardDesc:
+      - Craftolj 32 könyvet.
+      - 'Jutalom: 4000$'
+    '3':
+      Name: Harcos lélek
+      Objectives:
+      - Enchant;netherite_sword;4
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 8000
+      RewardDesc:
+      - Enchantolj 4 netheritkardot.
+      - 'Jutalom: 8000$'
+    '4':
+      Name: Extra védelem
+      Objectives:
+      - Enchant;diamond_helmet;1
+      - Enchant;diamond_chestplate;1
+      - Enchant;diamond_leggings;1
+      - Enchant;diamond_boots;1
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 4000
+      RewardDesc:
+      - Enchantolj 1 teljes gyémántszettet.
+      - 'Jutalom: 4000$'
+    '5':
+      Name: Fosztogatás
+      Objectives:
+      - Enchant;crossbow;3
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 4000
+      RewardDesc:
+      - Enchantolj 3 számszeríjat.
+      - 'Jutalom: 4000$'
+    '6':
+      Name: Poszeidon akarata
       Objectives:
       - Enchant;wood_sword;1
       - Enchant;diamond_sword;1
       - Enchant;ARROW_DAMAGE;1
       RewardCommands:
-      - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 5000
       RewardDesc:
-      - Be a wizard and get money
-      - Get 100 for this!
+      - Enchantolj 1 szigonyt.
+      - 'Jutalom: 5000$'
+    '7':
+      Name: Enchant eladás
+      Objectives:
+      - Enchant;book;16
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - lp user [playerName] permission settemp jobs.boost.Bűvölő.money.0.5 true 30m
+      RewardDesc:
+      - Enchantolj 16 könyvet.
+      - 'Jutalom: Fél órás +50%-os pénz bónusz'
   Gui:
     Id: 116
     Data: 0
