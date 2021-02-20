@@ -14,17 +14,89 @@ Fisherman:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Catcher
+      Name: Hullámok megszállottja
       Objectives:
-      - Fish;cod;2
-      - Fish;salmon;2
-      - Fish;tropical_fish;2
+      - Fish;cod;100
       RewardCommands:
-      - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 15000
       RewardDesc:
-      - Catch fish and get money
-      - Get 100 for this!
+      - Fogj ki 100 tőkehalat.
+      - 'Jutalom: 15000$'
+    '2':
+      Name: Vérbeli halász
+      Objectives:
+      - Fish;cod;32
+      - Fish;salmon;16
+      - Fish;pufferfish;4
+      - Fish;tropical_fish;1
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - give [playerName] heart_of_the_sea 1
+      - eco give [playerName] 10000
+      RewardDesc:
+      - Fogj ki 32 tőkehalat, 16 lazacot, 4 gömbhalat és 1 trópusi halat.
+      - 'Jutalom: 1 tenger szíve és 10000$'
+    '3':
+      Name: Tenger tisztítás
+      Objectives:
+      - Fish;bone;1
+      - Fish;ink_sac;1
+      - Fish;string;1
+      - Fish;stick;1
+      - Fish;leather;1
+      - Fish;rotten_flesh;1
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 5000
+      RewardDesc:
+      - 'Fogj ki minimum egyet ezekből: csont, tinta, fonál, bot, bőr, rohadthús.'
+      - 'Jutalom: 5000$'
+    '4':
+      Name: Út a halak felé
+      Objectives:
+      - Craft;fishing_rod;16
+      - Craft;bucket;16
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 5000
+      RewardDesc:
+      - Craftolj 16 horgászbotot és 16 vödröt.
+      - 'Jutalom: 5000$'
+    '5':
+      Name: Balaton ízei
+      Objectives:
+      - Bake;cod;64
+      - Bake;salmon;32
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 5000
+      RewardDesc:
+      - Süss ki 64 tőkehalat, 32 lazacot.
+      - 'Jutalom: 5000$'
+    '6':
+      Name: Haláli
+      Objectives:
+      - Eat;pufferfish;32
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 8000
+      - give [playerName] potionofregenerationii 1
+      RewardDesc:
+      - Egyél meg 32 gömbhalat. 
+      - 'Jutalom: 1 regeneráció II bájital és 8000$'
+    '7':
+      Name: Barbár halász
+      Objectives:
+      - Kill;cod;50
+      - Kill;salmon;25
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - lp user [playerName] permission settemp jobs.boost.Halász.money.0.5 true 30m
+      RewardDesc:
+      - Ölj meg 50 tőkehalat és 25 lazacot.
+      - 'Jutalom: Fél órás +50%-os pénz szorzó'
+
   Gui:
     Item: fishing_rod
   Fish:
