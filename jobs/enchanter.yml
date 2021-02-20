@@ -72,9 +72,7 @@ Enchanter:
     '6':
       Name: Poszeidon akarata
       Objectives:
-      - Enchant;wood_sword;1
-      - Enchant;diamond_sword;1
-      - Enchant;ARROW_DAMAGE;1
+      - Enchant;trident;1
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 5000
