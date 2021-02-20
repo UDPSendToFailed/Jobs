@@ -93,7 +93,6 @@ Farmer:
       RewardDesc:
       - Üss ki 1000 búzát.
       - 'Jutalom: Fél órás +50%-os pénz bónusz'
-
   Gui:
     Item: wooden_hoe
   Break:
