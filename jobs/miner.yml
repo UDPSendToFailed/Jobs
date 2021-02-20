@@ -14,17 +14,84 @@ Miner:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: DarkOne
+      Name: X-ray mester
       Objectives:
-      - Break;stone;50
-      - Break;granite;50
-      - Break;sandstone;50
+      - Break;diamond_ore;100
       RewardCommands:
-      - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 10000
       RewardDesc:
-      - Break blocks and get money
-      - Get 100 for this!
+      - Bányássz ki 100 gyémántércet.
+      - 'Jutalom: 10000$'
+    '2':
+      Name: Nether bányák
+      Objectives:
+      - Break;nether_gold_ore;64
+      - Break;nether_quartz_ore;64
+      - Break;ancient_debris;16
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - give [playerName] netherite_ingot 8
+      RewardDesc:
+      - Bányássz ki 64 nether aranyércet, 64 nether kvarcot, 16 ősi törmeléket.
+      - 'Jutalom: 8 netherit rúd'
+    '3':
+      Name: Bánya megszállott
+      Objectives:
+      - Break;stone;1000
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 5000
+      RewardDesc:
+      - Bányássz ki 1000 követ.
+      - 'Jutalom: 5000$'
+    '4':
+      Name: Vég szélén
+      Objectives:
+      - Break;endstone;1000
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 6000
+      RewardDesc:
+      - Bányássz ki 1000 endkövet.
+      - 'Jutalom: 6000$'
+    '5':
+      Name: Smaragd mániás
+      Objectives:
+      - Break;emerald_ore;8
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 5000
+      RewardDesc:
+      - Bányássz ki 8 smaragdércet.
+      - 'Jutalom: 5000$'
+    '6':
+      Name: Bánya építész
+      Objectives:
+      - Place;rail;100
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - give [playerName] powered_rail 50
+      RewardDesc:
+      - Rakj le 100 sínt, hogy könnyebb legyen a bányába vezető út.
+      - 'Jutalom: 50 elektromos sín.'
+    '7':
+      Name: Gyűjtögető
+      Objectives:
+      - Break;coal_ore;200
+      - Break;iron_ore;100
+      - Break;gold_ore;100
+      - Break;lapis_ore;80
+      - Break;redstone_ore;80
+      - Break;diamond_ore;50
+      - Break;emerald_ore;8
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - lp user [playerName] permission settemp jobs.boost.Bányász.money.0.5 true 30m
+      RewardDesc:
+      - Bányássz ki 200 szén, 100 vas, 100 arany, 80 lapis, 80 redstone, 50 gyémánt, 8 smaragd ércet.
+      - 'Jutalom: Fél órás +50%-os pénz szorzó'
+
   Gui:
     Id: 270
     Data: 0
