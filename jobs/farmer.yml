@@ -14,17 +14,86 @@ Farmer:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Őstermelő
+      Name: Újrahasznosítás
       Objectives:
-      - Breed;Sheep;10
-      - Shear;White;10
-      - Milk;Cow;3
+      - Place;composter;32
       RewardCommands:
-      - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 4000
+      - give [playerName] bonemeal 32
       RewardDesc:
-      - Be a farmer and get money
-      - Get 100 for this!
+      - Rakj le 32 komposztálót.
+      - 'Jutalom: 32 csontliszt és 4000$'
+    '2':
+      Name: Farmer diéta
+      Objectives:
+      - Bake;potato;500
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 10000
+      RewardDesc:
+      - Süss ki 500 krumplit.
+      - 'Jutalom: 10000$'
+    '3':
+      Name: Répa farm
+      Objectives:
+      - Place;carrots;1000
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 10000
+      - give [playerName] beetrootseeds 100
+      RewardDesc:
+      - Vess el 1000 répát.
+      - 'Jutalom: 100 céklamag és 10000$'
+    '4':
+      Name: Cékla farm
+      Objectives:
+      - Place;beetroots;1000
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 11000
+      RewardDesc:
+      - Vess el 1000 céklamagot
+      - 'Jutalom: 11000$'
+    '5':
+      Name: Bolygóvédelem
+      Objectives:
+      - Place;oak_sapling;10
+      - Place;birch_sapling;10
+      - Place;acacia_sapling;10
+      - Place;spruce_sapling;10
+      - Place;dark_oak_sapling;10
+      - Place;jungle_sapling;10
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 8000
+      RewardDesc:
+      - Ültess el 10 csemetét minden fából.
+      - 'Jutalom: 8000$ és egy szebb bolygó'
+    '6':
+      Name: Farmer előkészületek
+      Objectives:
+      - Craft;diamond_hoe;8
+      - Craft;iron_hoe;8
+      - Craft;bucket;16
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 4000
+      - give [playerName] enchantedbook 1 efficiency:5
+      RewardDesc:
+      - Craftolj 8 gyémántkapát, 8 vaskapát és 16 vödröt.
+      - 'Hatékonyság V enchant könyv és 4000$'
+    '7':
+      Name: Búza mindenhol
+      Objectives:
+      - Break;wheat-7;1000
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - lp user [playerName] permission settemp jobs.boost.Földműves.money.0.5 true 30m
+      RewardDesc:
+      - Üss ki 1000 búzát.
+      - 'Jutalom: Fél órás +50%-os pénz bónusz'
+
   Gui:
     Item: wooden_hoe
   Break:

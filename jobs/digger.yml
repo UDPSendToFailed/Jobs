@@ -55,7 +55,7 @@ Digger:
       - give [playerName] enchantedbook 1 efficiency:5
       RewardDesc:
       - Craftolj 8 gyémánt ásót és 8 vas ásót.
-      - 'Egy hatékonyság V enchant könyv és 4000$'
+      - 'Hatékonyság V enchant könyv és 4000$'
     '5':
       Name: Kráter helyek
       Objectives:
