@@ -61,7 +61,7 @@ Woodcutter:
       - lp user [playerName] permission settemp jobs.boost.Favágó.money.0.5 true 30m
       RewardDesc:
       - Vágj ki mind a 6 fajta fából 200-at.
-      - 'Jutalom: Fél órás +50%-os pénz szorzó'
+      - 'Jutalom: Fél órás +50%-os pénz bónusz'
     '5':
       Name: Fadíszítés
       Objectives:

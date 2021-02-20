@@ -14,17 +14,111 @@ Crafter:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Master Crafter
+      Name: Falusi gondozó
       Objectives:
-      - Craft;dispenser;10
-      - Craft;chest;10
-      - Craft;ladder;30
+      - Craft;blast_furnace;1
+      - Craft;smoker;1
+      - Craft;cartography_table;1
+      - Craft;brewing_stand;1
+      - Craft;composter;1
+      - Craft;barrel;1
+      - Craft;fletching_table;1
+      - Craft;cauldron;1
+      - Craft;lectern;1
+      - Craft;stonecutter;1
+      - Craft;loom;1
+      - Craft;smithing_table;1
+      - Craft;grindstone;1
       RewardCommands:
-      - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - give [playerName] villagerspawnegg 2
       RewardDesc:
-      - Craft and get money
-      - Get 100 for this!
+      - Craftolj mindegyik falusi munkaasztalból egyet.
+      - 'Jutalom: 2 falusiidéző tojás'
+    '2':
+      Name: Vasutas
+      Objectives:
+      - Craft;rail;200
+      - Craft;powered_rail;10
+      - Craft;minecart;8
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 10000
+      RewardDesc:
+      - Craftolj 200 sínt, 10 elektromos sínt és 8 csillét.
+      - 'Jutalom: 10000$'
+    '3':
+      Name: Farm mester
+      Objectives:
+      - Craft;piston;200
+      - Craft;observer;100
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 5000
+      - give [playerName] sticky_piston 100
+      RewardDesc:
+      - Craftolj 200 dugattyút és 100 megfigyelőt.
+      - 'Jutalom: 100 ragacsos dugattyú és 5000$'
+    '4':
+      Name: Raktáros
+      Objectives:
+      - Craft;chest;100
+      - Craft;trapped_chest;50
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 5000
+      - give [playerName] shulkerbox 1
+      RewardDesc:
+      - Craftolj 100 ládát és 50 csapdaládát.
+      - 'Jutalom: 2 shulkerdoboz és 5000$'
+    '5':
+      Name: Pokoli hangulat
+      Objectives:
+      - Craft;soul_torch;64
+      - Craft;soul_lantern;32
+      - Craft;soul_campfire;32
+      - Craft;chain;64
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - give [playerName] witherskeletonskull 3
+      - give [playerName] soulsand 4
+      RewardDesc:
+      - Craftolj 64 lélekfáklyát, 32 léleklámpást, 32 lélek-tábortüzet és 64 láncot.
+      - 'Jutalom: 3 withercsontváz fej és 4 lélekhomok'
+    '6':
+      Name: Irány az end!
+      Objectives:
+      - Craft;end_crystal;4
+      - Craft;ender_eye;8
+      - Craft;golden_apple;8
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 1000
+      - give [playerName] egoldapple 1
+      - give [playerName] bow 1 infinity:1
+      RewardDesc:
+      - Craftolj 4 endkristályt, 8 ender szemet és 8 aranyalmát.
+      - '1 bűvös aranyalma, 1 végtelen enchantos íj és 1000$'
+    '7':
+      Name: Felfegyverkezve
+      Objectives:
+      - Craft;netherite_helmet;1
+      - Craft;netherite_chestplate;1
+      - Craft;netherite_leggings;1
+      - Craft;netherite_boots;1
+      - Craft;netherite_sword;1
+      - Craft;netherite_pickaxe;1
+      - Craft netherite_axe;1
+      - Craft;netherite_shovel;1
+      - Craft;netherite_hoe;1
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 5000
+      - lp user [playerName] permission settemp jobs.boost.Barkácsoló.money.0.5 true 30m
+      RewardDesc:
+      - Craftolj egy teljes netherit páncélt és netherit eszközöket (kard, csákány, balta, ásó, kapa).
+      - 'Jutalom: Fél órás +50%-os pénz bónusz és 5000$'
+
   Gui:
     Item: crafting_table
   Craft:

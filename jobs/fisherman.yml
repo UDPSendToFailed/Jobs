@@ -95,7 +95,7 @@ Fisherman:
       - lp user [playerName] permission settemp jobs.boost.Halász.money.0.5 true 30m
       RewardDesc:
       - Ölj meg 50 tőkehalat és 25 lazacot.
-      - 'Jutalom: Fél órás +50%-os pénz szorzó'
+      - 'Jutalom: Fél órás +50%-os pénz bónusz'
 
   Gui:
     Item: fishing_rod

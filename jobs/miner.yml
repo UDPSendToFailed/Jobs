@@ -90,7 +90,7 @@ Miner:
       - lp user [playerName] permission settemp jobs.boost.Bányász.money.0.5 true 30m
       RewardDesc:
       - Bányássz ki 200 szén, 100 vas, 100 arany, 80 lapis, 80 redstone, 50 gyémánt, 8 smaragd ércet.
-      - 'Jutalom: Fél órás +50%-os pénz szorzó'
+      - 'Jutalom: Fél órás +50%-os pénz bónusz'
 
   Gui:
     Id: 270
