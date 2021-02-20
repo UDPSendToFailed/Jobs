@@ -30,6 +30,7 @@ Digger:
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 5000
+      - give [playerName] blue_orchid 32
       RewardDesc:
       - Áss ki 200 terméketlen földet.
       - 'Jutalom: 32 orchidea és 5000$'
