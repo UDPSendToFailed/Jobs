@@ -74,7 +74,7 @@ Miner:
       - give [playerName] powered_rail 50
       RewardDesc:
       - Rakj le 100 sínt, hogy könnyebb legyen a bányába vezető út.
-      - 'Jutalom: 50 elektromos sín.'
+      - 'Jutalom: 50 elektromos sín'
     '7':
       Name: Gyűjtögető
       Objectives:
