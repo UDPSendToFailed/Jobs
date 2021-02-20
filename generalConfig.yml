@@ -103,7 +103,7 @@ DailyQuests:
     Minute: 0
   # Defines amount of skips player can do on a quest
   # This allows player to abandon current quest and get new one
-  Skips: 1
+  Skips: 0
   # The cost of the quest skip (money).
   # Default 0, disabling cost of skipping quest.
   SkipQuestCost: 0.0
