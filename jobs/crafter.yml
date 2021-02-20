@@ -108,7 +108,7 @@ Crafter:
       - Craft;netherite_boots;1
       - Craft;netherite_sword;1
       - Craft;netherite_pickaxe;1
-      - Craft netherite_axe;1
+      - Craft;netherite_axe;1
       - Craft;netherite_shovel;1
       - Craft;netherite_hoe;1
       RewardCommands:

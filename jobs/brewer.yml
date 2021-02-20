@@ -14,17 +14,52 @@ Brewer:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Iszákos
+      Name: Főzés előtt
       Objectives:
-      - Brew;glowstone_dust;2
-      - Brew;redstone;2
-      - Brew;sugar;2
+      - Craft;brewing_stand;32
+      - Craft;glass_bottle;64
       RewardCommands:
-      - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 1000
+      - give [playerName] blazerod 64
+      - give [playerName] fermented_spider_eye 32
       RewardDesc:
-      - Brew some stuff and get money
-      - Get 100 for this!
+      - Craftolj 32 főzőállványt és 64 üvegpalackot.
+      - 'Jutalom: 64 lángrúd, 32 erjesztett pókszem és 1000$'
+    '2':
+      Name: Bájital szerzés másképp
+      Objectives:
+      - Kill;witch;16
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 5000
+      RewardDesc:
+      - Ölj meg 16 boszorkányt.
+      - 'Jutalom: 5000$'
+    '3':
+      Name: Boszorkány módra
+      Objectives:
+      - Craft;cauldron;32
+      - Craft;bucket;16
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 4000
+      RewardDesc:
+      - Craftolj 32 üstöt és 16 vödröt.
+      - 'Jutalom: 4000$'
+    '4':
+      Name: Nagy bevásárlás
+      Objectives:
+      - Craft;golden_carrot;64
+      - Craft;glistering_melon_slice;64
+      - Craft;sugar;64
+      - Craft;fermented_spider_eye;32
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - lp user [playerName] permission settemp jobs.boost.Bájitalfőző.money.0.5 true 30m
+      RewardDesc:
+      - Craftolj 64 aranyrépát, 64 ragyogó dinnyét, 64 cukrot, 32 erjesztett pókszemet.
+      - 'Jutalom: Fél órás +50%-os pénz bónusz'
   Gui:
     Id: 379
     Data: 0
