@@ -25,7 +25,7 @@ Enchanter:
       - give [playerName] experiencebottle 32
       RewardDesc:
       - Rakj le egy enchantasztalt és 20 könyvespolcot.
-      - 'Jutalom: 32 lapis, 32 xp poti és 3000$'
+      - 'Jutalom: 32 lazurit, 32 varázslat palackja és 3000$'
     '2':
       Name: Könyv készítés
       Objectives:
