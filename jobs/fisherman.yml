@@ -50,7 +50,7 @@ Fisherman:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 5000
       RewardDesc:
-      - 'Fogj ki minimum egyet ezekből: csont, tinta, fonál, bot, bőr, rohadthús.'
+      - 'Fogj ki minimum egyet ezekből: csont, tinta, fonál, bot, bőr, rohadt hús.'
       - 'Jutalom: 5000$'
     '4':
       Name: Út a halak felé
