@@ -34,7 +34,7 @@ Woodcutter:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - token give [playerName] 16
       RewardDesc:
-      - Craftolj 16 vas baltát és 8 gyémánt baltát.
+      - Craftolj 16 vasbaltát és 8 gyémántbaltát.
       - 'Jutalom: 16 token'
     '3':
       Name: Erővel teli
@@ -46,7 +46,7 @@ Woodcutter:
       - eco give [playerName] 2000
       RewardDesc:
       - Egyél meg 8 nyúlpörköltet.
-      - 'Jutalom: 1 netherit balta és 2000$'
+      - 'Jutalom: 1 netheritbalta és 2000$'
     '4':
       Name: Favágó szelleme
       Objectives:
@@ -70,7 +70,7 @@ Woodcutter:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 5000
       RewardDesc:
-      - Kérgezz meg 100 tölgyfát (baltával jobb klikk a farönkre).
+      - Kérgezz meg 100 tölgyfát (baltával jobbklikk a farönkre).
       - 'Jutalom: 5000$'
     '6':
       Name: Csúcs formában

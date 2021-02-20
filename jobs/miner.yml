@@ -33,8 +33,8 @@ Miner:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - give [playerName] netherite_ingot 8
       RewardDesc:
-      - Bányássz ki 64 nether aranyércet, 64 nether kvarcot, 16 ősi törmeléket.
-      - 'Jutalom: 8 netherit rúd'
+      - Bányássz ki 64 netheraranyércet, 64 netherkvarcot, 16 ősi törmeléket.
+      - 'Jutalom: 8 netheritrúd'
     '3':
       Name: Bánya megszállott
       Objectives:
@@ -89,9 +89,8 @@ Miner:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - lp user [playerName] permission settemp jobs.boost.Bányász.money.0.5 true 30m
       RewardDesc:
-      - Bányássz ki 200 szén, 100 vas, 100 arany, 80 lapis, 80 redstone, 50 gyémánt, 8 smaragd ércet.
+      - Bányássz ki 200 szén, 100 vas, 100 arany, 80 lazurit, 80 redstone, 50 gyémánt, 8 smaragd ércet.
       - 'Jutalom: Fél órás +50%-os pénz bónusz'
-
   Gui:
     Id: 270
     Data: 0
