@@ -14,17 +14,80 @@ Builder:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Mérnök
+      Name: Házépítés
       Objectives:
-      - Place;spruce_planks;50
-      - Place;birch_planks;50
-      - Place;wool;50
+      - Place;red_bed;1
+      - Place;chest;1
+      - Place;crafting_table;1
+      - Place;furnace;1
+      - Place;glass_pane;4
+      - Place;daylight_detector;1
+      - Place;oak_planks;100
       RewardCommands:
-      - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 10000
       RewardDesc:
-      - Place blocks and get money
-      - Get 100 for this!
+      - Rakj le 1 piros ágyat, 1 ládát, 1 barkácsasztalt, 1 kemencét, 4 üveglapot, 1 napfény érzékelőt és 100 tölgydeszkát.
+      - 'Jutalom: 10000$'
+    '2':
+      Name: Irány a nether!
+      Objectives:
+      - Place;obsidian;10
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 3000
+      - give [playerName] flintandsteel 1
+      RewardDesc:
+      - Rakj le 10 obszidiánt.
+      - 'Jutalom: 1 kovakő és acél, 3000$'
+    '3':
+      Name: Lakhely az endben
+      Objectives:
+      - Place;endstone_bricks;100
+      - Place;purpur_block;100
+      - Place;purple_stained_glass;10
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 5000
+      - give [playerName] shulkershell 2
+      RewardDesc:
+      - Rakj le 100 end kőtéglát, 100 purpur blokkot és 10 lila üveget.
+      - 'Jutalom: 2 shulkerhéj és 5000$'
+    '4':
+      Name: Várnegyed
+      Objectives:
+      - Place;stone_bricks;800
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - lp user [playerName] permission settemp jobs.boost.Építész.money.0.5 true 30m
+      RewardDesc:
+      - Rakj le 800 kőtéglát.
+      - 'Jutalom: Fél órás +50%-os pénz bónusz'
+    '5':
+      Name: Mesterséges erdő
+      Objectives:
+      - Place;oak_log;100
+      - Place;birch_log;100
+      - Place;acacia_log;100
+      - Place;spruce_log;100
+      - Place;dark_oak_log;100
+      - Place;jungle_log;100
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 10000
+      RewardDesc:
+      - Rakj le minden fajta fából 100-at.
+      - 'Jutalom: 10000$'
+    '6':
+      Name: Építész? ÉPÍTÉSZ???
+      Objectives:
+      - Craft;wooden_axe;540
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 10000
+      RewardDesc:
+      - 'Craftolj 10 duplaládányi fabaltát. ツ'
+      - 'Jutalom: 10000$'
   Gui:
     Item: brick_stairs
   Place:
