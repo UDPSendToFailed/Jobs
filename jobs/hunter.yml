@@ -24,7 +24,7 @@ Hunter:
       - give [playerName] witherskeletonskull 3
       - give [playerName] soulsand 4
       RewardDesc:
-      - Ölj meg 8 wither csontvázat és 8 őrlángot.
+      - Ölj meg 8 withercsontvázat és 8 őrlángot.
       - 'Jutalom: 3 withercsontváz fej, 4 lélekhomok és 1000$'
     '2':
       Name: Sárkánylovas
