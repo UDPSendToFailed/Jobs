@@ -14,17 +14,79 @@ Digger:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Kis vakond
+      Name: Sivatag ellen
       Objectives:
-      - Break;dirt;50
-      - Break;grass_block;50
-      - Break;gravel;50
+      - Break;sand;1500
       RewardCommands:
-      - eco give [playerName] 100
-      - msg [playerName] Completed quest!
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 10000
       RewardDesc:
-      - Dig blocks and get money
-      - Get 100 for this!
+      - Áss ki 1500 homokot.
+      - 'Jutalom: 10000$'
+    '2':
+      Name: Kihalt vidék
+      Objectives:
+      - Break;coarse_dirt;200
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 5000
+      RewardDesc:
+      - Áss ki 200 terméketlen földet.
+      - 'Jutalom: 32 orchidea és 5000$'
+    '3':
+      Name: Tengerek mélyén
+      Objectives:
+      - Break;gravel;1500
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 11000
+      RewardDesc:
+      - Áss ki 1500 sódert.
+      - 'Jutalom: 11000$'
+    '4':
+      Name: Ásásra fel!
+      Objectives:
+      - Craft;diamond_shovel;8
+      - Craft;iron_shovel;8
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 4000
+      - give [playerName] enchantedbook 1 efficiency:5
+      RewardDesc:
+      - Craftolj 8 gyémánt ásót és 8 vas ásót.
+      - 'Egy hatékonyság V enchant könyv és 4000$'
+    '5':
+      Name: Kráter helyek
+      Objectives:
+      - Break;emerald_ore;8
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - lp user [playerName] permission settemp jobs.boost.Lapátoló.money.0.5 true 30m
+      RewardDesc:
+      - Áss ki 3000 földet.
+      - 'Jutalom: Fél órás +50%-os pénz bónusz'
+    '6':
+      Name: Halál szélén
+      Objectives:
+      - Break;soul_sand;100
+      - Break;soul_soil;50
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - give [playerName] egoldapple 1
+      - give [playerName] netheriteingot 4
+      RewardDesc:
+      - Áss ki 100 lélekhomokot és 50 lélektalajt.
+      - 'Jutalom: Egy bűvös aranyalma és 4 netheritrúd'
+    '7':
+      Name: Szivárvány vidék
+      Objectives:
+      - Break;red_sand;300
+      RewardCommands:
+      - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
+      - eco give [playerName] 5000
+      RewardDesc:
+      - Áss ki 300 vörös homokot.
+      - 'Jutalom: 8000$'
   Gui:
     Id: 269
     Data: 0
