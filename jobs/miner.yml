@@ -21,7 +21,7 @@ Miner:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 4000
       RewardDesc:
-      - Bányássz ki 20 gyémántércet.
+      - Bányássz ki 16 gyémántércet.
       - 'Jutalom: 4000$'
     '2':
       Name: Nether bányák
