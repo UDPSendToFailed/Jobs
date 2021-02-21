@@ -32,7 +32,7 @@ Woodcutter:
       - Craft;diamond_axe;8
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
-      - token give [playerName] 16
+      - tokenmanager add [playerName] 16
       RewardDesc:
       - Craftolj 16 vasbaltát és 8 gyémántbaltát.
       - 'Jutalom: 16 token'
