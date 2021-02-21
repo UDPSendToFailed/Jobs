@@ -74,10 +74,10 @@ Digger:
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - give [playerName] egoldapple 1
-      - give [playerName] netheriteingot 4
+      - give [playerName] netheriteingot 1
       RewardDesc:
       - Áss ki 100 lélekhomokot és 50 lélektalajt.
-      - 'Jutalom: Egy bűvös aranyalma és 4 netheritrúd'
+      - 'Jutalom: Egy bűvös aranyalma és 1 netheritrúd'
     '7':
       Name: Szivárvány vidék
       Objectives:
