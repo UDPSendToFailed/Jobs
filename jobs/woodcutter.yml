@@ -42,11 +42,11 @@ Woodcutter:
       - Eat;rabbit_stew;8
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
-      - give [playerName] netherite_axe 1
+      - give [playerName] diamond_axe 1
       - eco give [playerName] 2000
       RewardDesc:
       - Egyél meg 8 nyúlpörköltet.
-      - 'Jutalom: 1 netheritbalta és 2000$'
+      - 'Jutalom: 1 gyémánt balta és 2000$'
     '4':
       Name: Favágó szelleme
       Objectives:
@@ -68,30 +68,30 @@ Woodcutter:
       - StripLogs;stripped_oak_log;100
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
-      - eco give [playerName] 5000
+      - eco give [playerName] 3000
       RewardDesc:
       - Kérgezz meg 100 tölgyfát (baltával jobbklikk a farönkre).
-      - 'Jutalom: 5000$'
+      - 'Jutalom: 3000$'
     '6':
       Name: Csúcs formában
       Objectives:
       - Break;spruce_log;300
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
-      - eco give [playerName] 10000
+      - eco give [playerName] 5000
       RewardDesc:
       - Vágj ki 300 fenyőfa rönköt.
-      - 'Jutalom: 10000$'
+      - 'Jutalom: 5000$'
     '7':
       Name: Csúcs formában 2
       Objectives:
       - Break;oak_log;300
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
-      - eco give [playerName] 11000
+      - eco give [playerName] 8000
       RewardDesc:
       - Vágj ki 300 tölgyfa rönköt.
-      - 'Jutalom: 11000$'
+      - 'Jutalom: 8000$'
   Gui:
     Id: 17
     Data: 2
