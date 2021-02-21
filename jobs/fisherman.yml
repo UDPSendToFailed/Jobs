@@ -33,10 +33,10 @@ Fisherman:
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - give [playerName] heart_of_the_sea 1
-      - eco give [playerName] 10000
+      - eco give [playerName] 8000
       RewardDesc:
       - Fogj ki 32 tőkehalat, 16 lazacot, 4 gömbhalat és 1 trópusi halat.
-      - 'Jutalom: 1 tenger szíve és 10000$'
+      - 'Jutalom: 1 tenger szíve és 8000$'
     '3':
       Name: Tenger tisztítás
       Objectives:
@@ -59,10 +59,10 @@ Fisherman:
       - Craft;bucket;16
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
-      - eco give [playerName] 5000
+      - eco give [playerName] 2000
       RewardDesc:
       - Craftolj 16 horgászbotot és 16 vödröt.
-      - 'Jutalom: 5000$'
+      - 'Jutalom: 2000$'
     '5':
       Name: Balaton ízei
       Objectives:
@@ -80,11 +80,11 @@ Fisherman:
       - Eat;pufferfish;32
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
-      - eco give [playerName] 8000
+      - eco give [playerName] 5000
       - give [playerName] potionofregenerationii 1
       RewardDesc:
-      - Egyél meg 32 gömbhalat. 
-      - 'Jutalom: 1 regeneráció II bájital és 8000$'
+      - Egyél meg 16 gömbhalat. 
+      - 'Jutalom: 1 regeneráció II bájital és 5000$'
     '7':
       Name: Barbár halász
       Objectives:
