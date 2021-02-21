@@ -25,10 +25,10 @@ Builder:
       - Place;oak_planks;100
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
-      - eco give [playerName] 10000
+      - eco give [playerName] 5000
       RewardDesc:
       - Rakj le 1 piros ágyat, 1 ládát, 1 barkácsasztalt, 1 kemencét, 4 üveglapot, 1 napfény érzékelőt és 100 tölgydeszkát.
-      - 'Jutalom: 10000$'
+      - 'Jutalom: 5000$'
     '2':
       Name: Irány a nether!
       Objectives:
