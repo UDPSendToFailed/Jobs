@@ -25,7 +25,7 @@ Farmer:
       - Rakj le 32 komposztálót.
       - 'Jutalom: 32 csontliszt és 4000$'
     '2':
-      Name: Farmer diéta
+      Name: Farmerdiéta
       Objectives:
       - Bake;potato;500
       RewardCommands:
@@ -35,18 +35,21 @@ Farmer:
       - Süss ki 500 krumplit.
       - 'Jutalom: 10000$'
     '3':
-      Name: Répa farm
+      Name: Répafarm
       Objectives:
       - Place;carrots;1000
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 10000
-      - give [playerName] beetrootseeds 100
+      - give [playerName] beetrootseeds 16
+      - give [playerName] potato 16
+      - give [playerName] wheatseeds 16
+      - give [playerName] netherwart 16
       RewardDesc:
       - Vess el 1000 répát.
-      - 'Jutalom: 100 céklamag és 10000$'
+      - 'Jutalom: 16 céklamag, 16 krumpli, 16 búzamag, 16 nether bibircsók és 10000$'
     '4':
-      Name: Cékla farm
+      Name: Céklafarm
       Objectives:
       - Place;beetroots;1000
       RewardCommands:
@@ -66,10 +69,10 @@ Farmer:
       - Place;jungle_sapling;10
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
-      - eco give [playerName] 8000
+      - eco give [playerName] 5000
       RewardDesc:
       - Ültess el 10 csemetét minden fából.
-      - 'Jutalom: 8000$ és egy szebb bolygó'
+      - 'Jutalom: 5000$ és egy szebb bolygó'
     '6':
       Name: Farmer előkészületek
       Objectives:
