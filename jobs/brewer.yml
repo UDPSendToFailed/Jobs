@@ -32,10 +32,10 @@ Brewer:
       - Kill;witch;16
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
-      - eco give [playerName] 5000
+      - eco give [playerName] 2000
       RewardDesc:
       - Ölj meg 16 boszorkányt.
-      - 'Jutalom: 5000$'
+      - 'Jutalom: 2000$'
     '3':
       Name: Boszorkány módra
       Objectives:
