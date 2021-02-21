@@ -32,20 +32,20 @@ Enchanter:
       - Craft;book;32
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
-      - eco give [playerName] 4000
+      - eco give [playerName] 3000
       RewardDesc:
       - Craftolj 32 könyvet.
-      - 'Jutalom: 4000$'
+      - 'Jutalom: 3000$'
     '3':
       Name: Harcos lélek
       Objectives:
       - Enchant;netherite_sword;4
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
-      - eco give [playerName] 8000
+      - eco give [playerName] 4000
       RewardDesc:
       - Enchantolj 4 netheritkardot.
-      - 'Jutalom: 8000$'
+      - 'Jutalom: 4000$'
     '4':
       Name: Extra védelem
       Objectives:
@@ -65,20 +65,20 @@ Enchanter:
       - Enchant;crossbow;3
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
-      - eco give [playerName] 4000
+      - eco give [playerName] 3000
       RewardDesc:
       - Enchantolj 3 számszeríjat.
-      - 'Jutalom: 4000$'
+      - 'Jutalom: 3000$'
     '6':
       Name: Poszeidon akarata
       Objectives:
       - Enchant;trident;1
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
-      - eco give [playerName] 5000
+      - eco give [playerName] 3000
       RewardDesc:
       - Enchantolj 1 szigonyt.
-      - 'Jutalom: 5000$'
+      - 'Jutalom: 3000$'
     '7':
       Name: Enchant eladás
       Objectives:
