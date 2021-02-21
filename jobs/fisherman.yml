@@ -77,7 +77,7 @@ Fisherman:
     '6':
       Name: Haláli
       Objectives:
-      - Eat;pufferfish;32
+      - Eat;pufferfish;16
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 5000
