@@ -16,25 +16,25 @@ Miner:
     '1':
       Name: X-ray mester
       Objectives:
-      - Break;diamond_ore;100
+      - Break;diamond_ore;16
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
-      - eco give [playerName] 10000
+      - eco give [playerName] 4000
       RewardDesc:
-      - Bányássz ki 100 gyémántércet.
-      - 'Jutalom: 10000$'
+      - Bányássz ki 16 gyémántércet.
+      - 'Jutalom: 4000$'
     '2':
       Name: Nether bányák
       Objectives:
       - Break;nether_gold_ore;64
       - Break;nether_quartz_ore;64
-      - Break;ancient_debris;16
+      - Break;ancient_debris;4
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
-      - give [playerName] netherite_ingot 8
+      - give [playerName] netherite_ingot 3
       RewardDesc:
-      - Bányássz ki 64 netheraranyércet, 64 netherkvarcot, 16 ősi törmeléket.
-      - 'Jutalom: 8 netheritrúd'
+      - Bányássz ki 64 netheraranyércet, 64 netherkvarcot, 4 ősi törmeléket.
+      - 'Jutalom: 3 netheritrúd'
     '3':
       Name: Bánya megszállott
       Objectives:
