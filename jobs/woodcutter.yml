@@ -6,9 +6,10 @@ Woodcutter:
   chat-display: full
   max-level: 1000
   leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*0.5)
-  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.025)
+  income-progression-equation: (baseincome+(baseincome*(joblevel-1)*0.025)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.03)))
   points-progression-equation: (basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
-    * ((numjobs-1)*0.05)))*0.1
+    * ((numjobs-1)*0.03)))*0.1
   experience-progression-equation: baseexperience*joblevel*0.1
   rejoinCooldown: 10
   maxDailyQuests: 1
