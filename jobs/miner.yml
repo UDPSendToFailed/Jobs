@@ -95,7 +95,6 @@ Miner:
   Gui:
     Id: 270
     Data: 0
-  TNTBreak: {}
   Break:
     ancient_debris:
       experience: 100
@@ -266,5 +265,3 @@ Miner:
       income: 20
       points: 20
       experience: 20
-  Place:
-  Kill:

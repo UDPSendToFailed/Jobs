@@ -119,7 +119,6 @@ Crafter:
       RewardDesc:
       - Craftolj egy teljes netherit páncélt és netherit eszközöket (kard, csákány, balta, ásó, kapa).
       - 'Jutalom: Fél órás +50%-os pénz bónusz és 5000$'
-
   Gui:
     Item: crafting_table
   Craft:
