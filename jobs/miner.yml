@@ -93,8 +93,7 @@ Miner:
       - Bányássz ki 200 szén, 100 vas, 100 arany, 80 lazurit, 80 redstone, 50 gyémánt, 8 smaragd ércet.
       - 'Jutalom: Fél órás +50%-os pénz bónusz'
   Gui:
-    Id: 270
-    Data: 0
+    Item: wooden_pickaxe
   Break:
     ancient_debris:
       experience: 100

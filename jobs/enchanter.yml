@@ -91,8 +91,7 @@ Enchanter:
       - Enchantolj 16 könyvet.
       - 'Jutalom: Fél órás +50%-os pénz bónusz'
   Gui:
-    Id: 116
-    Data: 0
+    Item: enchanting_table
   Enchant:
     book:
       experience: 3.5

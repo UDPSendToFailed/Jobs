@@ -1,7 +1,7 @@
 Woodcutter:
   fullname: Favágó
   shortname: F
-  description: Pénz keres fák vágásából és ültetéséből.
+  description: Pénzt keres fák vágásából és ültetéséből.
   ChatColour: GREEN
   chat-display: full
   max-level: 1000
@@ -94,8 +94,7 @@ Woodcutter:
       - Vágj ki 300 tölgyfa rönköt.
       - 'Jutalom: 8000$'
   Gui:
-    Id: 17
-    Data: 2
+    Item: oak_log
   Break:
     materials:
     - oak_log;1.2;1.2;1.2

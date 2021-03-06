@@ -62,8 +62,7 @@ Brewer:
       - Craftolj 64 aranyrépát, 64 ragyogó dinnyét, 64 cukrot, 32 erjesztett pókszemet.
       - 'Jutalom: Fél órás +50%-os pénz bónusz'
   Gui:
-    Id: 379
-    Data: 0
+    Item: brewing_stand
   Brew:
     blaze_powder:
       experience: 12

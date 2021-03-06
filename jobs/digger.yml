@@ -90,8 +90,7 @@ Digger:
       - Áss ki 300 vörös homokot.
       - 'Jutalom: 8000$'
   Gui:
-    Id: 269
-    Data: 0
+    Item: wooden_shovel
   Break:
     clay:
       experience: 1.15

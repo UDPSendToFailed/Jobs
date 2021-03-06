@@ -93,8 +93,7 @@ Hunter:
       - Ölj meg 50 vasgólemet.
       - 'Jutalom: 32 vasblokk és 5000$'
   Gui:
-    Id: 261
-    Data: 0
+    Item: bow
   Tame:
     Ocelot:
       income: 17
