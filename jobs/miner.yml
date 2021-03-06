@@ -112,7 +112,7 @@ Miner:
       experience: 1.25
       income: 1.25
       points: 1.25
-    BROWN_TERRACOTTA:
+    brown_terracotta:
       experience: 1.55
       income: 1.55
       points: 1.55
@@ -172,7 +172,7 @@ Miner:
       experience: 6
       income: 6
       points: 6
-    LIGHT_GRAY_TERRACOTTA:
+    light_gray_terracotta:
       experience: 1.55
       income: 1.55
       points: 1.55
@@ -224,7 +224,7 @@ Miner:
       experience: 3.1
       income: 3.1
       points: 3.1
-    RED_TERRACOTTA:
+    red_terracotta:
       experience: 1.55
       income: 1.55
       points: 1.55
@@ -236,7 +236,7 @@ Miner:
       experience: 0.4
       income: 0.8
       points: 0.8
-    TERRACOTTA:
+    terracotta:
       experience: 1.4
       income: 1.4
       points: 1.4
@@ -244,11 +244,11 @@ Miner:
       experience: 0.6
       income: 0.6
       points: 0.6
-    WHITE_TERRACOTTA:
+    white_terracotta:
       experience: 1.55
       income: 1.55
       points: 1.55
-    YELLOW_TERRACOTTA:
+    yellow_terracotta:
       experience: 1.55
       income: 1.55
       points: 1.55
