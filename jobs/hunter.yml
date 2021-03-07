@@ -57,7 +57,7 @@ Hunter:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 10000
       RewardDesc:
-      - Ölj meg 500 endermant.
+      - Ölj meg 500 enderman-t.
       - 'Jutalom: 10000$'
     '5':
       Name: Távolsági harc
@@ -69,7 +69,7 @@ Hunter:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 8000
       RewardDesc:
-      - Craftolj 1 számszeríjat, 2 íjat és 300 nyilat. 
+      - Barkácsolj 1 számszeríjat, 2 íjat és 300 nyilat. 
       - 'Jutalom: 8000$'
     '6':
       Name: Faluk védelme
@@ -95,7 +95,7 @@ Hunter:
   Gui:
     Item: bow
   Tame:
-    Ocelot:
+    Cat:
       income: 17
       points: 17
       experience: 17

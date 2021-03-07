@@ -34,8 +34,8 @@ Crafter:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - give [playerName] villagerspawnegg 2
       RewardDesc:
-      - Craftolj mindegyik falusi munkaasztalból egyet.
-      - 'Jutalom: 2 falusiidéző tojás'
+      - Barkácsolj mindegyik falusi munkaasztalból egyet.
+      - 'Jutalom: 2 falusi idéző tojás'
     '2':
       Name: Vasutas
       Objectives:
@@ -46,7 +46,7 @@ Crafter:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 10000
       RewardDesc:
-      - Craftolj 200 sínt, 10 elektromos sínt és 8 csillét.
+      - Barkácsolj 200 sínt, 10 elektromos sínt és 8 csillét.
       - 'Jutalom: 10000$'
     '3':
       Name: Farm mester
@@ -58,7 +58,7 @@ Crafter:
       - eco give [playerName] 5000
       - give [playerName] sticky_piston 100
       RewardDesc:
-      - Craftolj 200 dugattyút és 100 megfigyelőt.
+      - Barkácsolj 200 dugattyút és 100 megfigyelőt.
       - 'Jutalom: 100 ragacsos dugattyú és 5000$'
     '4':
       Name: Raktáros
@@ -70,7 +70,7 @@ Crafter:
       - eco give [playerName] 5000
       - give [playerName] shulkerbox 1
       RewardDesc:
-      - Craftolj 100 ládát és 50 csapdaládát.
+      - Barkácsolj 100 ládát és 50 csapdaládát.
       - 'Jutalom: 1 shulkerdoboz és 5000$'
     '5':
       Name: Pokoli hangulat
@@ -84,7 +84,7 @@ Crafter:
       - give [playerName] witherskeletonskull 3
       - give [playerName] soulsand 4
       RewardDesc:
-      - Craftolj 64 lélekfáklyát, 32 léleklámpást, 32 lélek-tábortüzet és 64 láncot.
+      - Barkácsolj 64 lélekfáklyát, 32 léleklámpást, 32 lélek-tábortüzet és 64 láncot.
       - 'Jutalom: 3 withercsontváz fej és 4 lélekhomok'
     '6':
       Name: Irány az end!
@@ -98,8 +98,8 @@ Crafter:
       - give [playerName] egoldapple 1
       - give [playerName] bow 1 infinity:1
       RewardDesc:
-      - Craftolj 4 endkristályt, 8 ender szemet és 8 aranyalmát.
-      - '1 bűvös aranyalma, 1 végtelen enchantos íj és 1000$'
+      - Barkácsolj 4 endkristályt, 8 ender szemet és 8 aranyalmát.
+      - 'Jutalom: 1 bűvös aranyalma, 1 végtelen fejlesztésű íj és 1000$'
     '7':
       Name: Felfegyverkezve
       Objectives:
@@ -117,7 +117,7 @@ Crafter:
       - eco give [playerName] 5000
       - lp user [playerName] permission settemp jobs.boost.Barkácsoló.money.0.5 true 30m
       RewardDesc:
-      - Craftolj egy teljes netherit páncélt és netherit eszközöket (kard, csákány, balta, ásó, kapa).
+      - Barkácsolj egy teljes netherit páncélt és netherit eszközöket (kard, csákány, balta, ásó, kapa).
       - 'Jutalom: Fél órás +50%-os pénz bónusz és 5000$'
   Gui:
     Item: crafting_table
@@ -154,7 +154,7 @@ Crafter:
       experience: 30
       income: 30
       points: 30
-    bed:
+    bed-all:
       experience: 3
       income: 3
       points: 3
@@ -342,31 +342,31 @@ Crafter:
       experience: 0.2
       income: 0.2
       points: 0.2
-    gold_axe:
+    golden_axe:
       experience: 3.1
       income: 3.1
       points: 3.1
-    gold_boots:
+    golden_boots:
       experience: 5
       income: 5
       points: 5
-    gold_chestplate:
+    golden_chestplate:
       experience: 8
       income: 8
       points: 8
-    gold_helmet:
+    golden_helmet:
       experience: 6
       income: 6
       points: 6
-    gold_hoe:
+    golden_hoe:
       experience: 2
       income: 2
       points: 2
-    gold_leggings:
+    golden_leggings:
       experience: 7
       income: 7
       points: 7
-    gold_pickaxe:
+    golden_pickaxe:
       experience: 3
       income: 3
       points: 3
@@ -374,7 +374,7 @@ Crafter:
       experience: 1.6
       income: 1.6
       points: 1.6
-    gold_sword:
+    golden_sword:
       experience: 2.3
       income: 2.3
       points: 2.3
@@ -815,31 +815,31 @@ Crafter:
       experience: 2
       income: 2
       points: 2
-    gold_axe:
+    golden_axe:
       experience: 2.1
       income: 2.1
       points: 2.1
-    gold_boots:
+    golden_boots:
       experience: 4
       income: 4
       points: 4
-    gold_chestplate:
+    golden_chestplate:
       experience: 7
       income: 7
       points: 7
-    gold_helmet:
+    golden_helmet:
       experience: 5
       income: 5
       points: 5
-    gold_hoe:
+    golden_hoe:
       experience: 1
       income: 1
       points: 1
-    gold_leggings:
+    golden_leggings:
       experience: 6
       income: 6
       points: 6
-    gold_pickaxe:
+    golden_pickaxe:
       experience: 2
       income: 2
       points: 2
@@ -847,7 +847,7 @@ Crafter:
       experience: 0.6
       income: 0.6
       points: 0.6
-    gold_sword:
+    golden_sword:
       experience: 1.3
       income: 1.3
       points: 1.3

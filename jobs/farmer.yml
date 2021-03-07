@@ -85,8 +85,8 @@ Farmer:
       - eco give [playerName] 4000
       - give [playerName] enchantedbook 1 efficiency:5
       RewardDesc:
-      - Craftolj 8 gyémántkapát, 8 vaskapát és 16 vödröt.
-      - 'Hatékonyság V enchant könyv és 4000$'
+      - Barkácsolj 8 gyémántkapát, 8 vaskapát és 16 vödröt.
+      - 'Jutalom: Hatékonyság V fejlesztésű könyv és 4000$'
     '7':
       Name: Búza mindenhol
       Objectives:
@@ -409,7 +409,7 @@ Farmer:
       experience: 6
       income: 6
       points: 6
-    Ocelot:
+    Cat:
       experience: 8
       income: 8
       points: 8

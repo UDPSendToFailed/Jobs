@@ -15,7 +15,7 @@ Enchanter:
   maxDailyQuests: 1
   Quests:
     '1':
-      Name: Enchant helyiség
+      Name: Fejlesztő helyiség
       Objectives:
       - Place;enchanting_table;1
       - Place;bookshelf;20
@@ -25,7 +25,7 @@ Enchanter:
       - give [playerName] lapislazuli 32
       - give [playerName] experiencebottle 32
       RewardDesc:
-      - Rakj le egy enchantasztalt és 20 könyvespolcot.
+      - Rakj le egy varázsasztalt és 20 könyvespolcot.
       - 'Jutalom: 32 lazurit, 32 varázslat palackja és 3000$'
     '2':
       Name: Könyv készítés
@@ -35,7 +35,7 @@ Enchanter:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 3000
       RewardDesc:
-      - Craftolj 32 könyvet.
+      - Barkácsolj 32 könyvet.
       - 'Jutalom: 3000$'
     '3':
       Name: Harcos lélek
@@ -45,7 +45,7 @@ Enchanter:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 4000
       RewardDesc:
-      - Enchantolj 4 netheritkardot.
+      - Fejlessz 4 netheritkardot.
       - 'Jutalom: 4000$'
     '4':
       Name: Extra védelem
@@ -58,7 +58,7 @@ Enchanter:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 4000
       RewardDesc:
-      - Enchantolj 1 teljes gyémántszettet.
+      - Fejlessz 1 teljes gyémántszettet.
       - 'Jutalom: 4000$'
     '5':
       Name: Fosztogatás
@@ -68,27 +68,27 @@ Enchanter:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 3000
       RewardDesc:
-      - Enchantolj 3 számszeríjat.
+      - Fejlessz 3 számszeríjat.
       - 'Jutalom: 3000$'
     '6':
-      Name: Poszeidon akarata
+      Name: Poszeidón akarata
       Objectives:
       - Enchant;trident;1
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 3000
       RewardDesc:
-      - Enchantolj 1 szigonyt.
+      - Fejlessz 1 szigonyt.
       - 'Jutalom: 3000$'
     '7':
-      Name: Enchant eladás
+      Name: Fejlesztés eladás
       Objectives:
       - Enchant;book;16
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - lp user [playerName] permission settemp jobs.boost.Bűvölő.money.0.5 true 30m
       RewardDesc:
-      - Enchantolj 16 könyvet.
+      - Fejlessz 16 könyvet.
       - 'Jutalom: Fél órás +50%-os pénz bónusz'
   Gui:
     Item: enchanting_table
@@ -141,31 +141,31 @@ Enchanter:
       experience: 2
       income: 2
       points: 2
-    gold_axe:
+    golden_axe:
       experience: 2.1
       income: 2.1
       points: 2.1
-    gold_boots:
+    golden_boots:
       experience: 4
       income: 4
       points: 4
-    gold_chestplate:
+    golden_chestplate:
       experience: 7
       income: 7
       points: 7
-    gold_helmet:
+    golden_helmet:
       experience: 5
       income: 5
       points: 5
-    gold_hoe:
+    golden_hoe:
       experience: 1
       income: 1
       points: 1
-    gold_leggings:
+    golden_leggings:
       experience: 6
       income: 6
       points: 6
-    gold_pickaxe:
+    golden_pickaxe:
       experience: 2
       income: 2
       points: 2
@@ -173,7 +173,7 @@ Enchanter:
       experience: 0.6
       income: 0.6
       points: 0.6
-    gold_sword:
+    golden_sword:
       experience: 1.3
       income: 1.3
       points: 1.3
