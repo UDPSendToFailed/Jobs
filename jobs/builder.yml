@@ -500,10 +500,6 @@ Builder:
       experience: 2
       income: 1.5
       points: 1.5
-    obsidian:
-      experience: 2
-      income: 1.5
-      points: 1.5
     orange_stained_glass:
       experience: 2
       income: 1.5
