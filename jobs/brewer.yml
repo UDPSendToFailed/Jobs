@@ -25,7 +25,7 @@ Brewer:
       - give [playerName] blazerod 64
       - give [playerName] fermented_spider_eye 32
       RewardDesc:
-      - Craftolj 32 főzőállványt és 64 üvegpalackot.
+      - Barkácsolj 32 főzőállványt és 64 üvegpalackot.
       - 'Jutalom: 64 lángrúd, 32 erjesztett pókszem és 1000$'
     '2':
       Name: Bájital szerzés másképp
@@ -46,7 +46,7 @@ Brewer:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 4000
       RewardDesc:
-      - Craftolj 32 üstöt és 16 vödröt.
+      - Barkácsolj 32 üstöt és 16 vödröt.
       - 'Jutalom: 4000$'
     '4':
       Name: Nagy bevásárlás
@@ -59,7 +59,7 @@ Brewer:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - lp user [playerName] permission settemp jobs.boost.Bájitalfőző.money.0.5 true 30m
       RewardDesc:
-      - Craftolj 64 aranyrépát, 64 ragyogó dinnyét, 64 cukrot, 32 erjesztett pókszemet.
+      - Barkácsolj 64 aranyrépát, 64 ragyogó dinnyét, 64 cukrot, 32 erjesztett pókszemet.
       - 'Jutalom: Fél órás +50%-os pénz bónusz'
   Gui:
     Item: brewing_stand

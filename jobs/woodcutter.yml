@@ -24,7 +24,7 @@ Woodcutter:
       - give [playerName] jungle_sapling 64
       - eco give [playerName] 5000
       RewardDesc:
-      - Vágj ki 300 dzsunegelfa rönköt és szedj 100 dzsungelfa levelet.
+      - Vágj ki 300 dzsungelfa rönköt és szedj 100 dzsungelfa levelet.
       - 'Jutalom: 64 dzsungelfa csemete és 5000$'
     '2':
       Name: Felfegyverkezve
@@ -35,7 +35,7 @@ Woodcutter:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - tokenmanager add [playerName] 16
       RewardDesc:
-      - Craftolj 16 vasbaltát és 8 gyémántbaltát.
+      - Barkácsolj 16 vasbaltát és 8 gyémántbaltát.
       - 'Jutalom: 16 token'
     '3':
       Name: Erővel teli
@@ -71,7 +71,7 @@ Woodcutter:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 3000
       RewardDesc:
-      - Kérgezz meg 100 tölgyfát (baltával jobbklikk a farönkre).
+      - Kérgezz meg 100 tölgyfát (baltával jobb klikk a farönkre).
       - 'Jutalom: 3000$'
     '6':
       Name: Csúcs formában

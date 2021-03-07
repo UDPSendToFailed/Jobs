@@ -42,7 +42,7 @@ Builder:
       - Rakj le 10 obszidiánt.
       - 'Jutalom: 1 kovakő és acél, 3000$'
     '3':
-      Name: Lakhely az endben
+      Name: Lakhely az end-ben
       Objectives:
       - Place;endstone_bricks;100
       - Place;purpur_block;100
@@ -87,7 +87,7 @@ Builder:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 10000
       RewardDesc:
-      - 'Craftolj 10 duplaládányi fabaltát. ツ'
+      - 'Barkácsolj 10 dupla ládányi fabaltát. ツ'
       - 'Jutalom: 10000$'
   Gui:
     Item: brick_stairs
@@ -680,7 +680,7 @@ Builder:
       experience: 2
       income: 1.5
       points: 1.5
-    wool:
+    wool-all:
       experience: 2
       income: 1.5
       points: 1.5

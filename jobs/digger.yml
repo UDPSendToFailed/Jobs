@@ -1,7 +1,7 @@
 Digger:
-  fullname: Lapátoló
+  fullname: Ásó
   shortname: L
-  description: Pénzt keres ásából.
+  description: Pénzt keres ásásból.
   ChatColour: GOLD
   chat-display: full
   max-level: 1000
@@ -55,15 +55,15 @@ Digger:
       - eco give [playerName] 4000
       - give [playerName] enchantedbook 1 efficiency:5
       RewardDesc:
-      - Craftolj 8 gyémánt ásót és 8 vas ásót.
-      - 'Hatékonyság V enchant könyv és 4000$'
+      - Barkácsolj 8 gyémánt ásót és 8 vas ásót.
+      - 'Jutalom: Hatékonyság V fejlesztésű könyv és 4000$'
     '5':
       Name: Kráter helyek
       Objectives:
       - Break;dirt;3000
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
-      - lp user [playerName] permission settemp jobs.boost.Lapátoló.money.0.5 true 30m
+      - lp user [playerName] permission settemp jobs.boost.Ásó.money.0.5 true 30m
       RewardDesc:
       - Áss ki 3000 földet.
       - 'Jutalom: Fél órás +50%-os pénz bónusz'

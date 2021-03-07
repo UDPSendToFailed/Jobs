@@ -62,7 +62,7 @@ Fisherman:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 2000
       RewardDesc:
-      - Craftolj 16 horgászbotot és 16 vödröt.
+      - Barkácsolj 16 horgászbotot és 16 vödröt.
       - 'Jutalom: 2000$'
     '5':
       Name: Balaton ízei
