@@ -141,9 +141,9 @@ Hunter:
       income: 5.5
       points: 5.5
     DOLPHIN:
-      experience: 15
-      income: 3
-      points: 3
+      experience: -5
+      income: -3
+      points: -3
     DROWNED:
       experience: 3.4
       income: 3.4
@@ -169,9 +169,9 @@ Hunter:
       income: 6.2
       points: 6.2
     FOX:
-      experience: 11
-      income: 5.1
-      points: 5.1
+      experience: -8
+      income: -5.1
+      points: -5.1
     GHAST:
       experience: 10
       income: 10
@@ -217,17 +217,17 @@ Hunter:
       income: 6.4
       points: 6.4
     OCELOT:
-      experience: 6.9
-      income: 6.9
-      points: 6.9
+      experience: -6.7
+      income: -6.7
+      points: -6.7
     PANDA:
-      experience: 9
-      income: 6.9
-      points: 6.9
+      experience: -9
+      income: -6.9
+      points: -6.9
     PARROT:
-      experience: 13
-      income: 5.4
-      points: 5.4
+      experience: -10
+      income: -5.4
+      points: -5.4
     PHANTOM:
       experience: 8
       income: 8
@@ -245,9 +245,9 @@ Hunter:
       income: 3.6
       points: 3.6
     POLAR_BEAR:
-      experience: 17
-      income: 7.7
-      points: 7.7
+      experience: -7
+      income: -7.7
+      points: -7.7
     PUFFERFISH:
       experience: 2
       income: 2
@@ -329,9 +329,9 @@ Hunter:
       income: 3.7
       points: 3.7
     VILLAGER:
-      experience: 0.5
-      income: 0.5
-      points: 0.5
+      experience: -5
+      income: -5
+      points: -5
     VINDICATOR:
       experience: 5.2
       income: 5.2
@@ -353,9 +353,9 @@ Hunter:
       income: 4
       points: 4
     Wolf:
-      experience: 15
-      income: 9.9
-      points: 9.9
+      experience: -5
+      income: -9.9
+      points: -9.9
     ZOGLIN:
       experience: 4.8
       income: 4.8
