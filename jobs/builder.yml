@@ -196,10 +196,6 @@ Builder:
       experience: 2
       income: 1.5
       points: 1.5
-    brown_terracotta:
-      experience: 2
-      income: 1.5
-      points: 1.5
     chest:
       experience: 2
       income: 1.5
@@ -288,10 +284,6 @@ Builder:
       experience: 2
       income: 1.5
       points: 1.5
-    dark_prismarine:
-      experience: 1.9
-      income: 1.3
-      points: 1.3
     dark_prismarine_stairs:
       experience: 2
       income: 1.5
@@ -440,10 +432,6 @@ Builder:
       experience: 2
       income: 1.5
       points: 1.5
-    light_gray_terracotta:
-      experience: 2
-      income: 1.5
-      points: 1.5
     lime_stained_glass:
       experience: 2
       income: 1.5
@@ -472,10 +460,6 @@ Builder:
       experience: 2
       income: 1.5
       points: 1.5
-    mossy_cobblestone_wall:
-      experience: 2
-      income: 1.5
-      points: 1.5
     mossy_stone_bricks:
       experience: 2
       income: 1.5
@@ -488,14 +472,6 @@ Builder:
       experience: 2
       income: 0.8
       points: 0.8
-    nether_brick_stairs:
-      experience: 2
-      income: 1.5
-      points: 1.5
-    nether_bricks:
-      experience: 2
-      income: 1.5
-      points: 1.5
     oak_fence:
       experience: 2
       income: 1.5
@@ -560,18 +536,10 @@ Builder:
       experience: 2
       income: 1.5
       points: 1.5
-    prismarine:
-      experience: 1.9
-      income: 1.3
-      points: 1.3
     prismarine_brick_stairs:
       experience: 2
       income: 1.5
       points: 1.5
-    prismarine_bricks:
-      experience: 1.9
-      income: 1.3
-      points: 1.3
     prismarine_stairs:
       experience: 2
       income: 1.5
@@ -629,10 +597,6 @@ Builder:
       income: 1.5
       points: 1.5
     red_stained_glass_pane:
-      experience: 2
-      income: 1.5
-      points: 1.5
-    red_terracotta:
       experience: 2
       income: 1.5
       points: 1.5
@@ -708,10 +672,6 @@ Builder:
       experience: 2
       income: 0.8
       points: 0.8
-    terracotta:
-      experience: 2
-      income: 1.5
-      points: 1.5
     trapped_chest:
       experience: 2
       income: 1.5
@@ -724,10 +684,6 @@ Builder:
       experience: 2
       income: 1.5
       points: 1.5
-    white_terracotta:
-      experience: 2
-      income: 1.5
-      points: 1.5
     wool:
       experience: 2
       income: 1.5
@@ -737,10 +693,6 @@ Builder:
       income: 1.5
       points: 1.5
     yellow_stained_glass_pane:
-      experience: 2
-      income: 1.5
-      points: 1.5
-    yellow_terracotta:
       experience: 2
       income: 1.5
       points: 1.5
