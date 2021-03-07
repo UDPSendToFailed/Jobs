@@ -71,7 +71,7 @@ Crafter:
       - give [playerName] shulkerbox 1
       RewardDesc:
       - Craftolj 100 ládát és 50 csapdaládát.
-      - 'Jutalom: 2 shulkerdoboz és 5000$'
+      - 'Jutalom: 1 shulkerdoboz és 5000$'
     '5':
       Name: Pokoli hangulat
       Objectives:

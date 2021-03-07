@@ -60,7 +60,7 @@ Digger:
     '5':
       Name: Kráter helyek
       Objectives:
-      - Break;emerald_ore;8
+      - Break;dirt;3000
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - lp user [playerName] permission settemp jobs.boost.Lapátoló.money.0.5 true 30m
