@@ -311,7 +311,7 @@ command:
       levelUntil: ' &a(amíg &e%levelUntil% &aszint)'
       money: ' &2%money%$'
       points: ' &6%points% pont'
-      exp: ' &e%exp%tapasztalat'
+      exp: ' &e%exp% tapasztalat'
     gui:
       pickjob: '&eVálassz egy munkát!'
       jobinfo: '&e[jobname] információ!'
