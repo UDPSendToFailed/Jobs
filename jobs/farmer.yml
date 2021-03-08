@@ -6,9 +6,9 @@ Farmer:
   chat-display: full
   max-level: 1000
   leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*0.5)
-  income-progression-equation: (baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+  income-progression-equation: (baseincome+(baseincome*(joblevel-1)*0.013)-((baseincome+(baseincome*(joblevel-1)*0.01))
     * ((numjobs-1)*0.03)))
-  points-progression-equation: (basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+  points-progression-equation: (basepoints+(basepoints*(joblevel-1)*0.012)-((basepoints+(basepoints*(joblevel-1)*0.01))
     * ((numjobs-1)*0.03)))*0.1
   experience-progression-equation: baseexperience*joblevel*0.1
   rejoinCooldown: 10
@@ -221,9 +221,9 @@ Farmer:
       income: 2
       points: 2
     sugar_cane:
-      experience: 0.2
-      income: 0.2
-      points: 0.2
+      experience: 0.8
+      income: 0.8
+      points: 0.8
     twisting_vines:
       experience: 1.9
       income: 1.9
