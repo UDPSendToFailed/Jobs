@@ -31,3 +31,5 @@ None:
       income: 0.1
       points: 0.1
       experience: 0.1
+  world-blacklist:
+  - survivalgames

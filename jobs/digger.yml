@@ -146,3 +146,4 @@ Digger:
       points: 1.55
   world-blacklist:
   - world2
+  - survivalgames

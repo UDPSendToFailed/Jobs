@@ -140,3 +140,5 @@ Fisherman:
       experience: 25
       income: 25
       points: 25
+  world-blacklist:
+  - survivalgames
