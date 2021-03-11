@@ -692,5 +692,3 @@ Builder:
       experience: 2
       income: 1.5
       points: 1.5
-  world-blacklist:
-  - survivalgames
