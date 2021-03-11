@@ -28,7 +28,7 @@ Farmer:
     '2':
       Name: Farmerdiéta
       Objectives:
-      - Bake;baked_potato;500
+      - Smelt;baked_potato;500
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 10000
