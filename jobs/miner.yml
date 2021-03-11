@@ -264,3 +264,5 @@ Miner:
       income: 20
       points: 20
       experience: 20
+  world-blacklist:
+  - world2

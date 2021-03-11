@@ -113,3 +113,5 @@ Woodcutter:
     - stripped_dark_oak_log;0.80;0.80;0.80
     - stripped_warped_stem;1.5;1.5;1.5
     - stripped_crimson_stem;1.5;1.5;1.5
+  world-blacklist:
+  - world2

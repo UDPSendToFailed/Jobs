@@ -144,3 +144,5 @@ Digger:
       experience: 1.55
       income: 1.55
       points: 1.55
+  world-blacklist:
+  - world2
