@@ -113,9 +113,9 @@ Farmer:
       income: 2
       points: 2
     bamboo:
-      experience: 0.3
-      income: 0.3
-      points: 0.3
+      experience: 1.01
+      income: 1.01
+      points: 1.01
     beetroots-3:
       experience: 1
       income: 1
