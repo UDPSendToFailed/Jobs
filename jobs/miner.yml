@@ -211,6 +211,10 @@ Miner:
       experience: 5
       income: 5
       points: 5
+    orange_terracotta:
+      experience: 1.55
+      income: 1.55
+      points: 1.55
     prismarine:
       experience: 2.5
       income: 2.5
