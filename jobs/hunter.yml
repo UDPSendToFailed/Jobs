@@ -45,7 +45,7 @@ Hunter:
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
       - eco give [playerName] 15000
-      - give [playerName] egoldapple 1
+      - give [playerName] enchanted_golden_apple 1
       RewardDesc:
       - Öld meg a withert.
       - 'Jutalom: Egy bűvös aranyalma és 15000$'
