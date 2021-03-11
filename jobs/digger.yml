@@ -74,7 +74,7 @@ Digger:
       - Break;soul_soil;50
       RewardCommands:
       - tellraw [playerName] {"text":"Küldetés teljesítve!","color":"green"}
-      - give [playerName] egoldapple 1
+      - give [playerName] enchanted_golden_apple 1
       - give [playerName] netheriteingot 1
       RewardDesc:
       - Áss ki 100 lélekhomokot és 50 lélektalajt.
