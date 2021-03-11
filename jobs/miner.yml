@@ -252,15 +252,15 @@ Miner:
       income: 1.55
       points: 1.55
   Smelt:
-    iron_ore:
+    iron_ingot:
       income: 1.4
       points: 1.4
       experience: 2
-    gold_ore:
+    gold_ingot:
       income: 2.2
       points: 2.2
       experience: 3
-    ancient_debris:
+    netherite_scrap:
       income: 20
       points: 20
       experience: 20
