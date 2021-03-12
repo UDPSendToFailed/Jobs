@@ -411,9 +411,9 @@ ActionBars:
   Messages:
     # When this set to true player will see action bar messages by default
     # When false, players will see chat messages instead.
-    EnabledByDefault: true
+    EnabledByDefault: false
     # If true, should we mute the payment messages from appearing in chat if actionbar is disabled?
-    SilentMode: false
+    SilentMode: true
 BossBar:
   # Enables BossBar feature
   # Works only from 1.9 mc version
