@@ -312,7 +312,7 @@ Economy:
   Crafting:
     # With this true, player will get money for all crafted items instead of each crafting action (like with old payment mechanic)
     # By default its false, as you can make ALOT of money if prices kept from old payment mechanics
-    PayForEachCraft: false
+    PayForEachCraft: true
     # true - if players tries to combine (repair) 2 same items, like armor or weapon do they get income for it?
     PayForCombiningItems: true
   VTrade:
