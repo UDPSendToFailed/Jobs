@@ -306,42 +306,6 @@ Crafter:
       experience: 5
       income: 5
       points: 4
-    diamond_axe:
-      experience: 10
-      income: 10
-      points: 10
-    diamond_boots:
-      experience: 12
-      income: 12
-      points: 12
-    diamond_chestplate:
-      experience: 18
-      income: 18
-      points: 18
-    diamond_helmet:
-      experience: 13
-      income: 13
-      points: 13
-    diamond_hoe:
-      experience: 9
-      income: 9
-      points: 9
-    diamond_leggings:
-      experience: 16
-      income: 16
-      points: 16
-    diamond_pickaxe:
-      experience: 11
-      income: 11
-      points: 11
-    diamond_shovel:
-      experience: 8
-      income: 8
-      points: 8
-    diamond_sword:
-      experience: 9.5
-      income: 9.5
-      points: 9.5
     dispenser:
       experience: 4
       income: 4
@@ -366,42 +330,6 @@ Crafter:
       experience: 0.2
       income: 0.2
       points: 0.2
-    golden_axe:
-      experience: 3.1
-      income: 3.1
-      points: 3.1
-    golden_boots:
-      experience: 5
-      income: 5
-      points: 5
-    golden_chestplate:
-      experience: 8
-      income: 8
-      points: 8
-    golden_helmet:
-      experience: 6
-      income: 6
-      points: 6
-    golden_hoe:
-      experience: 2
-      income: 2
-      points: 2
-    golden_leggings:
-      experience: 7
-      income: 7
-      points: 7
-    golden_pickaxe:
-      experience: 3
-      income: 3
-      points: 3
-    golden_shovel:
-      experience: 1.6
-      income: 1.6
-      points: 1.6
-    golden_sword:
-      experience: 2.3
-      income: 2.3
-      points: 2.3
     gray_stained_glass:
       experience: 0.3
       income: 0.3
@@ -426,46 +354,6 @@ Crafter:
       experience: 4
       income: 4
       points: 4
-    iron_boots:
-      experience: 4
-      income: 4
-      points: 4
-    iron_chestplate:
-      experience: 7
-      income: 7
-      points: 7
-    iron_door:
-      experience: 6
-      income: 6
-      points: 6
-    iron_axe:
-      experience: 3.55
-      income: 3.55
-      points: 3.55
-    iron_helmet:
-      experience: 5
-      income: 5
-      points: 5
-    iron_hoe:
-      experience: 3.2
-      income: 3.2
-      points: 3.2
-    iron_leggings:
-      experience: 6.5
-      income: 6.5
-      points: 6.5
-    iron_pickaxe:
-      experience: 3.5
-      income: 3.5
-      points: 3.5
-    iron_shovel:
-      experience: 2.2
-      income: 2.2
-      points: 2.2
-    iron_sword:
-      experience: 3
-      income: 3
-      points: 3
     jukebox:
       experience: 5
       income: 5
@@ -494,22 +382,6 @@ Crafter:
       experience: 0.1
       income: 0.1
       points: 0.1
-    leather_boots:
-      experience: 1
-      income: 1
-      points: 1
-    leather_chestplate:
-      experience: 1.2
-      income: 1.2
-      points: 1.2
-    leather_helmet:
-      experience: 1
-      income: 1
-      points: 1
-    leather_leggings:
-      experience: 1.1
-      income: 1.1
-      points: 1.1
     light_blue_stained_glass:
       experience: 0.3
       income: 0.3
@@ -550,42 +422,6 @@ Crafter:
       experience: 3
       income: 2.5
       points: 2.5
-    netherite_axe:
-      experience: 20
-      income: 20
-      points: 20
-    netherite_boots:
-      experience: 22
-      income: 22
-      points: 22
-    netherite_chestplate:
-      experience: 28
-      income: 28
-      points: 28
-    netherite_helmet:
-      experience: 23
-      income: 23
-      points: 23
-    netherite_hoe:
-      experience: 13
-      income: 13
-      points: 13
-    netherite_leggings:
-      experience: 26
-      income: 26
-      points: 26
-    netherite_pickaxe:
-      experience: 21
-      income: 21
-      points: 21
-    netherite_shovel:
-      experience: 12
-      income: 12
-      points: 12
-    netherite_sword:
-      experience: 19
-      income: 19
-      points: 19
     note_block:
       experience: 3
       income: 1.5
@@ -738,10 +574,6 @@ Crafter:
       experience: 3
       income: 3
       points: 3
-    stone_axe:
-      experience: 1.1
-      income: 1.1
-      points: 1.1
     stone_bricks:
       experience: 1.5
       income: 1.5
@@ -754,26 +586,10 @@ Crafter:
       experience: 1.5
       income: 1.5
       points: 1.5
-    stone_hoe:
-      experience: 0.69
-      income: 0.45
-      points: 0.45
-    stone_pickaxe:
-      experience: 0.66
-      income: 0.66
-      points: 0.66
     stone_pressure_plate:
       experience: 3
       income: 3
       points: 3
-    stone_shovel:
-      experience: 0.58
-      income: 0.58
-      points: 0.58
-    stone_sword:
-      experience: 0.91
-      income: 0.91
-      points: 0.91
     terracotta:
       experience: 1.5
       income: 1.5
@@ -798,26 +614,6 @@ Crafter:
       experience: 1.5
       income: 1.5
       points: 1.5
-    wooden_axe:
-      experience: 1
-      income: 1
-      points: 1
-    wooden_hoe:
-      experience: 0.69
-      income: 0.4
-      points: 0.4
-    wooden_pickaxe:
-      experience: 0.6
-      income: 0.6
-      points: 0.6
-    wooden_shovel:
-      experience: 0.5
-      income: 0.5
-      points: 0.5
-    wooden_sword:
-      experience: 0.9
-      income: 0.9
-      points: 0.9
     yellow_stained_glass:
       experience: 0.3
       income: 0.3
