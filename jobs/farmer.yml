@@ -221,9 +221,9 @@ Farmer:
       income: 2
       points: 2
     sugar_cane:
-      experience: 0.8
-      income: 0.8
-      points: 0.8
+      experience: 1.01
+      income: 1.01
+      points: 1.01
     twisting_vines:
       experience: 1.9
       income: 1.9
