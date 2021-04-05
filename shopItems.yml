@@ -106,7 +106,7 @@ Items:
       #- "&6Unbreaking III"
       #- "&eAnd one tasty apple!"
     PerformCommands:
-     - crates key [player] Fortuna2 1
+     - crates key [player] FortunaII 1
   ultrakiraly:
     Price: 6000.0
     Icon:
@@ -118,7 +118,7 @@ Items:
       #- "&6Unbreaking III"
       #- "&eAnd one tasty apple!"
     PerformCommands:
-     - crates key [player] Ultrakiraly 1
+     - crates key [player] Ultrakirály 1
   varazslatos:
     Price: 8000.0
     Icon:
@@ -130,7 +130,7 @@ Items:
       #- "&6Unbreaking III"
       #- "&eAnd one tasty apple!"
     PerformCommands:
-     - crates key [player] Varazslatos 1
+     - crates key [player] Varázslatos 1
   hiperszuper:
     Price: 12000.0
     Icon:
@@ -154,7 +154,7 @@ Items:
       #- "&6Unbreaking III"
       #- "&eAnd one tasty apple!"
     PerformCommands:
-     - crates key [player] Legendas 1
+     - crates key [player] Legendás 1
   titkos:
     Price: 30000.0
     Icon:
