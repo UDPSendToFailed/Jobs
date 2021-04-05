@@ -575,17 +575,9 @@ Crafter:
       income: 3
       points: 3
     stone_bricks:
-      experience: 1.5
-      income: 1.5
-      points: 1.5
-    stone_brick_slab:
-      experience: 1.5
-      income: 1.5
-      points: 1.5
-    stone_brick_stairs:
-      experience: 1.5
-      income: 1.5
-      points: 1.5
+      experience: 0.8
+      income: 1.2
+      points: 1
     stone_pressure_plate:
       experience: 3
       income: 3
